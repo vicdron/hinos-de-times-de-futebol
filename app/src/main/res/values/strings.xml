@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hinos de Times Brasileiros</string>
+
+    <string name="activity_label">Hinos de Times Brasileiros</string>
+    <string name="action_settings">Settings</string>
+
+    --adicionado--
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="image_button_content_description">Change state of section</string>
+</resources>

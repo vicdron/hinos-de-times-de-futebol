@@ -1,0 +1,2 @@
+rootProject.name = "Hinos de Times De Futebol"
+include ':app'
