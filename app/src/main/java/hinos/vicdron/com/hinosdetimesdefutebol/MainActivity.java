@@ -88,6 +88,17 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         arrayList3.add(new Clube(R.drawable.caldense,"caldense", "Caldense", R.raw.caldense, "É no pé e na raça\nQue lutamos pela taça!\nOlé, olé, olé!\nOnze cobras muito nossos\nQue, vestindo a cor de Poços,\nSabem bater o pé!\n\nSalve, salve a Veterana,\nClube forte, tão bacana\nE que é querido demais!\n\nVitória! Glória ao Verdão!\nQue vibra no coração, (bis)\nDa nossa Minas Gerais!"));
         arrayList3.add(new Clube(R.drawable.cruzeiro,"cruzeiro", "Cruzeiro", R.raw.cruzeiro, "Existe um grande clube na cidade,\nque mora dentro do meu coração\nEu vivo cheio de vaidade\npois na realidade é um grande campeão\nNos gramados de Minas Gerais\ntemos páginas heróicas e imortais\nCruzeiro Cruzeiro querido\ntão combatido jamais vencido.\n\nExiste um grande clube na cidade,\nque mora dentro do meu coração\nEu vivo cheio de vaidade\npois na realidade é um grande campeão\nNos gramados de Minas Gerais\ntemos páginas heróicas e imortais\nCruzeiro Cruzeiro querido\ntão combatido jamais vencido."));
         arrayList3.add(new Clube(R.drawable.democrata,"democrata", "Democrata", R.raw.democrata, "Esporte Clube Democrata\nÉs uma equipe de grande tradição\nPantera de sangue alvinegro\nA tua força faz tremer qualquer leão\n\nDemocrata sinônimo de luta\nForça, coragem e esplendor\nPantera, teu lema é a vitória\nTeus dias são de glória, de raça e amor\n\nÉs o orgulho do Vale do Rio Doce\nTua camisa é a imagem do poder\nO teu passado reflete no presente\nUm futuro que haveremos de vencer\n\nSe acaso a derrota acontecer\nNão vai ser nada, iremos prosseguir\nO que importa é a nossa união\nPorque unidos a vitória há de vir\n\nEsporte Clube Democrata\nO teu nome exprime liberdade\nÉs a esperança de tantos corações\nAlvinegros que te amam de verdade\n\nDemocrata és o grito de um povo\nUma união cujo lema é vencer\nVamos, Pantera, nada temos a temer\nNós somos brasileiros, Democrata até morrer."));
+        arrayList3.add(new Clube(R.drawable.guarani_mg,"guarani_mg", "Guarani", R.raw.guarani_mg, "Pinta em cores de vermelho e branco\n" +
+                "a bandeira do tamanduá\n" +
+                "bolas de ouro na grama\n" +
+                "ao comando alvi-rubro do meu Guará\n" +
+                "\n" +
+                "E lá se vão nossos heróis\n" +
+                "buscar vitórias para servir,\n" +
+                "meu sentimento meu alimento\n" +
+                "coração de Guarani.\n" +
+                "Pelo prazer, de te querer\n" +
+                "o teu nome é imortal."));
         arrayList3.add(new Clube(R.drawable.ipatinga,"ipatinga", "Ipatinga", R.raw.ipatinga, "Com muita raça e glória,\njogando com emoção,\nestou falando do Ipatinga,\no time do meu coração.\n\nUm Tigre com garras de aço,\npronto pra atacar,\nrepresentando o Vale do Aço,\nem território nacional.\n\n[Refrão]\n\nO Ipatinga é fruto desse chão,\no Ipatinga, orgulho dessa nação,\ncom muita garra e pronto pra vencer,\ncom a força de um tigre,\nnunca vamos morrer.\n\nEu sou Ipatinga\ncom raça e muito amor,\nonde o Ipatinga for,\ncom muito orgulho eu vou.\nEm busca de novas vitórias, histórias pra contar,\nPosso bater no meu peito,\nPor ter motivos pra me orgulhar."));
         arrayList3.add(new Clube(R.drawable.mamore,"mamore", "Mamoré", R.raw.mamore, "Da madeira veio o nome.\nE do nome a paixão.\nMamoré o mais querido.\nSempre sempre campeão.\n\nPredestinado a grandes glórias.\nNos gramados das Gerais.\nEsse é o sapo forte.\nCada vez pulando mais.\n\nMamoré o mais querido.\nSempre sempre campeão.\nMamoré o nosso clube.\nVida longa ao verdão.\n\nMamoré, Mamoré.\nMamoré, Mamoré.\nDe um sargento veio às ordens.\nSempre sempre a seguir.\nMuita garra muita luta.\nNunca nunca desistir.\n\nNa jornada em sua história.\nMuitas glórias conquistou.\nVários títulos em Minas.\nE o Brasil atravessou.\n\nMamoré o mais querido.\nSempre sempre campeão.\nMamoré o nosso clube.\nVida longa ao verdão.\n\nMamoré, Mamoré.\nMamoré, Mamoré.\nNosso nome veio de longe.\nUm periquito aqui pousou.\nE num brejo alagado.\nEm um sapo transformou.\n\nDa torcida veio a garra.\nE da garra a explosão.\nEsse é o sapo forte.\nMotivo da paixão.\n\nMamoré o mais querido.\nSempre sempre campeão.\nMamoré o nosso clube.\nVida longa ao verdão.\n\nMamoré, Mamoré.\nMamoré, Mamoré.\nMamoré, Mamoré.\nMamoré, Mamoré."));
         arrayList3.add(new Clube(R.drawable.tombense, "tombense","Tombemse", R.raw.tombense, "Fundado em 1914\nTombense é raça, é tradição\nSua história traduz em suas cores\nSua torcida mais pura emoção\nO vermelho é garra e coragem\nO branco muita paz e união\nVamos Tombense\nVamos jogar para vencer\n\nEm toda a partida\nJogaremos com você\nVamos Tombense\nForça, raça, amor e fé\n\nEstaremos com você\nAonde você estiver\nSomos Tombense não importa o lugar\nSeja no céu, na terra ou em qualquer lugar\nSomos Tombense não importa o lugar\nSeja no céu, na terra ou em qualquer lugar"));
@@ -150,6 +161,39 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         arrayList7.add(new Clube(R.drawable.central_pe,"central_pe", "Central ", R.raw.central_pe, "Meu glorioso alvinegro\nÉs campeão das emoções\nTua glória, teu passado\nSempre presente em nossos corações\nTua bandeira alvinegra\nAo tremular relembra a tua história\nEnche de orgulho o nosso peito\nNos faz lutar em busca da vitória\nÉs filho de Caruaru\nCapital do Agreste em Pernambuco\nNossa busca de vitórias prevalece\nO teu gingado tão malandro, tão matuto\nCentral, Central, Central\nO teu nome me enche de emoção\nSeja na terra, em outras terras\nTua bandeira é força e tradição"));
         arrayList7.add(new Clube(R.drawable.ibis,"ibis", "Íbis ", R.raw.ibis, "Vamos meu Íbis pra luta\nE em qualquer disputa\nEstaremos ao seu lado\nJuro por Deus, eu prometo\nQue o pássaro preto\nVai dar tudo no gramado\n\nNossa torcida é fiel e organizada\nNa geral e arquibancada\nVai vibrar de emoção\nQuem espera sempre alcança\nA nossa esperança\nÉ ver o Íbis campeão\n\nNossa galera da poeira e do asfalto\nQuer ver o pássaro preto\nVoando sempre mais alto\nSomos unidos e queremos prosperar\nNosso lema é competir\nVer o Íbis triunfar"));
         arrayList7.add(new Clube(R.drawable.nautico,"nautico", "Nautico", R.raw.nautico, "Da união de duas cores mágicas\nNasceu a força e a raça\nVermelho de luta\nBranco de paz\nQuem olha não esquece jamais\nDa união de sete letras mágicas (bis)\nN.á.u.t.i.c.o\nNasceu um time que encanta\nQue manda e desmanda\nQue faz o nosso Carnaval\n\nNáutico teu caminho é de luz\nTua força, tua garra\nFascina e seduz\nNo meu coração\nBrotou o esplendor\nDe te adorar com emoção\nNo meu coração\nBrotou o esplendor\nDe te adorar com muito amor\n\nLá, lá, lá, lá, lá, lá, lá, lá, lá, lá\nLá, lá, lá, lá, lá, lá, lá, lá, lá, lá\n\nNo meu coração\nBrotou o esplendor\nDe te adorar com emoção\nNo meu coração\nBrotou o esplendor\nDe te adorar com muito amor"));
+        arrayList7.add(new Clube(R.drawable.petrolina,"petrolina", "Petrolina", R.raw.petrolina, "Eis que surge a fera sertaneja\n" +
+                "Nasce forte como é forte o sertão\n" +
+                "Petrolina, heróico Petrolina\n" +
+                "És o clube do meu Coração\n" +
+                "Eis que surge a fera sertaneja\n" +
+                "Nasce forte como é forte o sertão\n" +
+                "Petrolina, heróico Petrolina\n" +
+                "És o clube do meu Coração\n" +
+                "Suas cores representa a cidade\n" +
+                "Amarelo e verde rubro dessa terra\n" +
+                "Quando surge o escrete no gramado\n" +
+                "A torcida brada o seu grito de guerra\n" +
+                "Quando surge o escrete no gramado\n" +
+                "A torcida brada o seu grito de guerra\n" +
+                "É Fera é Fera é Fera é Fera é Fera\n" +
+                "\n" +
+                "Eis que surge a fera sertaneja\n" +
+                "Nasce forte como é forte o sertão\n" +
+                "Petrolina, heróico Petrolina\n" +
+                "És o clube do meu Coração\n" +
+                "\n" +
+                "Eis que surge a fera sertaneja\n" +
+                "Nasce forte como é forte o sertão\n" +
+                "Petrolina, heróico Petrolina\n" +
+                "És o clube do meu Coração\n" +
+                "\n" +
+                "Suas cores representa a cidade\n" +
+                "Amarelo e verde rubro dessa terra\n" +
+                "Quando surge o escrete no gramado\n" +
+                "A torcida brada o seu grito de guerra\n" +
+                "Quando surge o escrete no gramado\n" +
+                "A torcida brada o seu grito de guerra\n" +
+                "É Fera é Fera é Fera é Fera é Fera"));
         arrayList7.add(new Clube(R.drawable.porto_pe,"porto", "Porto", R.raw.porto, "Sou do Clube Atlético do Porto\nClube do meu coração\nSuando a camisa na força da torcida\nSomos uma só nação (tricolor)\n\nSou do Clube Atlético do porto\nMeu Gavião (tricolor)\nO preto, azul e branco é a nossa bandeira\nCores do meu coração\nMeu Gavião do Agreste, mais uma vitória\nNo teu destino de glória, meu grito de gol (Gol)\nQuem é do Porto fica, quem vem não quer voltar\nPorto pra sempre será.\nNo vôo do gavião uma nova história\nBola no pé a jogada é fazer mais um gol (Gol)\nDa rua preta és filho, orgulho e tradição\nPorto do meu coração\n\nDa rua preta és filho, orgulho e tradição\nMeu tricolor gavião"));
         arrayList7.add(new Clube(R.drawable.salgueiro,"salgueiro_pe", "Salgueiro", R.raw.salgueiro_pe, "É Branco, verde e vermelho\nAs cores do meu coração\nSalgueiro Atlético Clube\nÉ o Tricolor do Sertão\n\nÉ força, é garra, é magia\nO sonho não acabou\nSe tem bola na rede começa a folia\nNa garganta o grito de gol\n\nFutebol é a minha alegria\nTem festa no interior\nNo toque da bola tem muita harmonia\nNa garganta o grito de gol\n\nÉ paixão no meu coração\nEmoção meu time é campeão\nÉ paixão, emoção\n\nSalgueiro Atlético Clube\nÉ! É! É!\nÉ o Carcará do Sertão!\n\nCarcará, pega, mata e come\nCarcará, não vai morrer de fome\nCarcará, mais coragem do que homem\nCarcará, pega, mata e come!"));
         arrayList7.add(new Clube(R.drawable.santacruz,"santacruz", "Santa Cruz", R.raw.santacruz, "Santa cruz santa cruz\nJunta mais esta vitória\nSanta cruz santa cruz\nAo teu passado de glória\nÉs o querido do povo \nO terror do Nordeste \nNo gramado tuas vitórias de hoje\nNos lembram vitórias do passado\nClube querido das multidões\nTu és o super campeão)"));
@@ -178,11 +222,57 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         arrayList9.add(new Clube(R.drawable.aparecidense,"aparidense_go", "Aparecidense", R.raw.aparidense_go, "É o azul e branco,\nque faz o meu coração bater pela\nAparecidense que nasceu pra vencer.\nÉ o azul e branco,\nque faz o meu coração bater pela \n\nAparecidense que nasceu pra vencer.\nDesde 1985 a Aparecidense faz parte da nossa vida\nÉ o orgulho da cidade de Aparecida\nÉ garra, é amor, é a nossa emoção\nSou Aparecidense de coração\nÉ garra, é amor, é a nossa emoção\nSou Aparecidense de coração\nTocando de pé em pé\nA gente chega junto com a Aparecidense\nOnde o azul e branco estiver"));
         arrayList9.add(new Clube(R.drawable.atletico_go,"atleticogo", "Atlético GO", R.raw.atleticogo, "Meu Atlético,\nMeu estandarte\nModéstia à parte tem a força\nQuente de um dragão\nMeu Atlético tem a mania de dar\nAlegria pro meu coração...\nMeu rubro negro, eu chego e vejo,\nVocê cumprindo o meu desejo de vencer, vencer, vencer!\nDá gosto ver nosso dragão,\nRolando a bola pelo chão e\nDando um show e mais um gol...\nLê Lêlêoo\nLê Lêlêoo\nAtlético!"));
         arrayList9.add(new Clube(R.drawable.crac,"crac", "CRAC", R.raw.crac, "(Vamos lá meu leão do Sul !) (CRAC)\n\nAs terras de Goiás ensolaradas\n(lá lá lá lá)\nDo chão um goiano se elevou\n(lá lá lá lá)\nA mão de Deus abençoou\nO CRAC de Catalão\nCom muito mais amor...\nEu te amo meu leão\nEu te amo\nAs cores branca e azul\nEu te amo meu leão\nEu te amo\nNinguém segura o leão do Sul !\n\nO céu de Catalão tem mais estrelas\n(lá lá lá lá)\nO verde teu está mais esplendor\n(lá lá lá lá)\nPorque Deus abençoou\nO sudeste de Goiás\nSó plantamos amor...\n\nEu te amo meu leão\nEu te amo\nAs cores branca e azul\nEu te amo meu leão\nEu te amo\nNinguém segura o leão do Sul !\n\n(Vamos lá meu timão !)\n\nA fera indomada de Goiás\n(lá lá lá lá)\nDos clubes goianos é o terror\n(lá lá lá lá)\nCatalanos vibram muito mais\nO leão em campo é o vencedor...\n\n(Agora !)\n\n(53, 53 minutos\nRômulo vai para a cobrança\nQuem sabe agora galera\nPrepara a festa torcedor\n\"Tá\" bonito o Genervino\nA galera grita Rômulo(2x)\n\"Tá\" tudo \"ok\"\nVai bate Rômulo\n53, 53, 53\n\"Vamo\" Rômulo\nArtilheiro do Campeonato\n\"Sô\" mais você Rômulo\nBateu:\nGOOOOOOOOOOOOL !)\n\nEu te amo meu leão\nEu te amo\nAs cores branca e azul\nEu te amo meu leão\nEu te amo\nNinguém segura o leão do Sul !\n\n(Eu quero vê todo mundo cantando para este timão !)\n(CRAC)\n\nAs terras de Goiás ensolaradas\n(lá lá lá lá)\nDo chão um goiano se elevou\n(lá lá lá lá)\nA mão de Deus abençoou\nO CRAC de Catalão\nCom muito mais amor...\n\n(CRAC)\n\nEu te amo meu leão\nEu te amo\nAs cores branca e azul\nEu te amo meu leão\nEu te amo\nNinguém segura o leão do Sul !\n\nO céu de Catalão tem mais estrelas\n(lá lá lá lá)\nO verde teu está mais esplendor\n(lá lá lá lá)\nPorque Deus abençoou\nO sudeste de Goiás\nSó plantamos amor...\n\n(CRAC)\n\nEu te amo meu leão\nEu te amo\nAs cores branca e azul\nEu te amo meu leão\nEu te amo\nNinguém segura o leão do Sul !\n\n(Vamos lá meu timão !)\n\nA fera indomada de Goiás\n(lá lá lá lá)\nDos clubes goianos é o terror\n(lá lá lá lá)\nCatalanos vibram muito mais\nO leão em campo é o vencedor...\n\n(Todo mundo comigo !)\n\nEu te amo meu leão\nEu te amo\nAs cores branca e azul\nEu te amo meu leão\nEu te amo\nNinguém segura o leão do Sul !\n\n(CRAC)"));
+        arrayList9.add(new Clube(R.drawable.goianesia,"goianesia", "Goianésia", R.raw.goianesia, "Desde 1955, Goianésia Esporte Clube,\n" +
+                "é e sempre será time de brilho.\n" +
+                "Desde 1955, Goianésia Esporte Clube,\n" +
+                "é e sempre será time de brilho.\n" +
+                "Garra, raça, amor nunca faltou para esse time,\n" +
+                "Fé, força, do Vale do São Patrício é filho.\n" +
+                "E os corações batem mais forte quando o Azulão,\n" +
+                "Vai entrando campo e explode a multidão,\n" +
+                "Muitas emoções, lágrimas correm, alegre sensação,\n" +
+                "Mais uma batalha ganha é campeão.\n" +
+                "Azulão do Vale vontade pra valer,\n" +
+                "Solte a voz e cante: Somos Goianésia para sempre."));
         arrayList9.add(new Clube(R.drawable.goiania,"goiania", "Goiania", R.raw.goiania, "O galo carijó é professor.\nO galo carijó é brigador.\nO galo quando entra no rebolo\npega a bola, faz o gol, esconde a bola e ninguém vê\n\nCadê a bola?, cadê cadê?\nGoiânia Esporte Clube futebol é com você!\nCom você!!Com você!!\n\nCadê a bola?, cadê cadê?\nGoiânia Esporte Clube futebol é com você!\nCom você!!Com você!!"));
         arrayList9.add(new Clube(R.drawable.goias,"goias", "Goias", R.raw.goias, "Eu sou Goiás Esporte Clube\nEu sou Goiás, eu sou Goiás e vou gritar\nAté o peito me doer,\nAté perder a voz eu sou Goiás\nEu sou Goiás até morrer\nEu sou Goiás, eu sou Goiás de coração\nCada vez nossa torcida cresce mais\nEternamente serei Goiás\n\nNosso Clube é a nossa glória\nA nossa garra, nossa gente, nossa história\nO amor pela nossa bandeira\nÉ para nós a maior vitória\n\nNosso Clube é a nossa glória\nNossa garra, nossa gente, nossa história\nA vida toda eu vou torcer\nEu sou Goiás, Goiás, até morrer\n\nEu sou Goiás Esporte Clube\nEu sou Goiás, eu sou Goiás e vou gritar\nAté o peito me doer,\nAté perder a voz eu sou Goiás\nEu sou Goiás até morrer\nEu sou Goiás, eu sou Goiás de coração\nCada vez nossa torcida cresce mais\nEternamente serei Goiás\nCada vez nossa torcida cresce mais\nEternamente serei Goiás."));
         arrayList9.add(new Clube(R.drawable.itumbiara,"itumbiara", "Itumbiara", R.raw.itumbiara, "Gigante temível do vale,\nÉs tu meu querido esquadrão!\nTricolor que se empenha na luta,\nMoras dentro do meu coração!\nNa disputa em que entras tens raça,\nE fugor com bravura aguerrida,\nTua força transpassa fronteiras,\nÉs o orgulho que tenho na vida...\nSob aplausos de tua torcida,\nMostras garra e firmeza tão rara,\nSustentando o emblema que usas,\nÉs leal és o meu ITUMBIARA,\nÉs leal és o meu ITUMBIARA,\n....Gol....\nTua massa também é fiel,\nPois orgulhas o povo goiano,\nDestemido gigante do vale,\nDestas quadras és um soberano,\nGigante temível do vale,\nÉs tu meu querido esquadrão!\nTricolor que se empenha na luta,\nMoras dentro do meu coração,\nMoras dentro do meu coração."));
         arrayList9.add(new Clube(R.drawable.jataiense,"jataiense", "Jataiense", R.raw.jataiense, "Gigante és, já está escrita a sua história\nNa glória, alegria e emoção\nEm campo és o maior\nJá sabe de cor, p sabor da vitória\nLevanto a sua bandeira\nCom muito orgulho, com emoção\n\nJataiense, meu sangue é verde\nOrgulho do meu coração\nJataiense, meu sangue é verde\nOrgulho do meu coração\n\nAgora deixa a bola rolar, deixa rolar\nA raposa em campo é emoção, é emoção\nNesse gramado verde a bola, é o meu coração\n\nO meu amor é para sempre\nE para sempre eu vou te amar\nBrilhando Jataiense\nSó tenho um lema: 'Ganhar, ganhar'\nNo livro de ouro, sua história\nEncanta com raça, fé e emoção\n\nJataiense, meu sangue é verde\nOrgulho do meu coração\nJataiense, meu sangue é verde\nOrgulho do meu coração\n\nAgora deixa a bola rolar, deixa rolar\nA raposa em campo é emoção, é emoção\nNesse gramado verde a bola, é o meu coração\n\nO meu amor é para sempre\nE para sempre eu vou te amar\nBrilhando Jataiense\nSó tenho um lema: 'Ganhar, ganhar'\nNo livro de ouro, sua história\nEncanta com raça, fé e emoção \n\nJataiense, meu sangue é verde\nOrgulho do meu coração\nJataiense, meu sangue é verde\nOrgulho do meu coração\n Jataiense, meu sangue é verde\nOrgulho do meu coração\n\nGigante és, já está escrita a sua história\nNa glória, alegria e emoção\nEm campo és o maior\nJá sabe de cor, p sabor da vitória\nLevanto a sua bandeira\nCom muito orgulho, com emoção\n\nJataiense, meu sangue é verde\nOrgulho do meu coração\nJataiense, meu sangue é verde\nOrgulho do meu coração\n\nAgora deixa a bola rolar, deixa rolar\nA raposa em campo é emoção, é emoção\nNesse gramado verde a bola, é o meu coração\n\nO meu amor é para sempre\nE para sempre eu vou te amar\nBrilhando Jataiense\nSó tenho um lema: 'Ganhar, ganhar'\nNo livro de ouro, sua história\nEncanta com raça, fé e emoção\n\nJataiense, meu sangue é verde\nOrgulho do meu coração\nJataiense, meu sangue é verde\nOrgulho do meu coração\n\nAgora deixa a bola rolar, deixa rolar\nA raposa em campo é emoção, é emoção\nNesse gramado verde a bola, é o meu coração\n\nO meu amor é para sempre\nE para sempre eu vou te amar\nBrilhando Jataiense\nSó tenho um lema: 'Ganhar, ganhar'\nNo livro de ouro, sua história\nEncanta com raça, fé e emoção \n\nJataiense, meu sangue é verde\nOrgulho do meu coração\nJataiense, meu sangue é verde\nOrgulho do meu coração\n Jataiense, meu sangue é verde\nOrgulho do meu coração"));
         arrayList9.add(new Clube(R.drawable.mineiros,"mineiros", "Mineiros", R.raw.mineiros, "Novo rei da bola já surgiu\nE é do centro-oeste do brasil\nNo peito, azul e branco é só emoção\nMineiros é o grande campeão\n Se quiser falar, que fale\nCuidado com a Águia do Vale\nMas se quiser vencer é só dizer\nSou Águia, sou Águia até morrer\n\nMas eu volto a dizer\nSe você quer vencer\nMineiros Esporte ClubeDe glorias pra sempre vou viver"));
+        arrayList9.add(new Clube(R.drawable.novo_horizonte_go,"novo_horizonte_go", "Novo Horizonte", R.raw.novo_horizonte_go, "Entramos juntos para vencer,\n" +
+                "com nosso time vamos jogar,\n" +
+                "Veste a camisa, ergue a bandeira.\n" +
+                "\n" +
+                "Entramos juntos com a mesma raça,\n" +
+                "com a mão na taça, sem vacilar,\n" +
+                "De pé em pé, passando a bola\n" +
+                "cruza na área, é gol!\n" +
+                "\n" +
+                "Amarelo e preto! É o Fantasma! Chegou a hora!\n" +
+                "Explode o grito de gol! Goooooool…\n" +
+                "E o torcedor vai ao delírio,\n" +
+                "e chora de emoção vendo seu timão na frente\n" +
+                "\n" +
+                "Novo Horizonte é meu Zonte!!\n" +
+                "Está em nossos corações\n" +
+                "No peito essa paixão!\n" +
+                "Gritar com emoção!\n" +
+                "É Zonte!\n" +
+                "\n" +
+                "Toda a galera vai jogar\n" +
+                "entrando em campo pra ganhar\n" +
+                "um brado forte a ecoar\n" +
+                "Olé, Olé! Mais um, mais um!\n" +
+                "\n" +
+                "Explode o grito de gol! Goooooool…\n" +
+                "E o torcedor vai ao delírio,\n" +
+                "e chora de emoção vendo seu timão na frente\n" +
+                "\n" +
+                "Novo Horizonte é meu Zonte!!\n" +
+                "Está em nossos corações\n" +
+                "No peito essa paixão!\n" +
+                "Gritar com emoção!\n" +
+                "É Zonte!"));
         arrayList9.add(new Clube(R.drawable.vilanova,"vilanovago", "Vila Nova", R.raw.vilanovago, "Salve o Vila Nova tetracampeão\nSalve o Vila Nova\nOrgulho da nossa região.\n\nO Vila Nova não pode parar\nO tigre da vila famosa tem que triunfar\nSua torcida é fenomenal\nÊta esquadrão legal!"));
         sectionedExpandableLayoutHelper.addSection("  GOIANOS", arrayList9);
 
@@ -197,22 +287,184 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         arrayList10.add(new Clube(R.drawable.guarai_juazeiro,"guarani_juazeiro", "Guarani de Juazeiro", R.raw.guarani_juazeiro, "O meu coração, é Guarani.\nEu sou Leão,\naté que a morte nos separe,\nEu não vou abrir.\n\nO meu coração, é Guarani.\nEu sou Leão,\naté que a morte nos separe,\nEu não vou abrir.\n\nGuarani, Guarani, Guarani.\nMinha alegria é te ver jogar.\nGuarani, Guarani, Guarani,\nganhando ou perdendo,\nnada vai me impedir.\n\nDe gritar gol (Gol).\nDe te seguir.\nPra onde você for, eu vou meu Guarani.\n\nVou gritar gol (Gol).\nEu vou vestir,\na camisa rubro-negra do meu Guarani.\n\nO meu coração, é Guarani.\nEu sou Leão,\naté que a morte nos separe,\nEu não vou abrir.\n\nO meu coração, é Guarani.\neu sou Leão,\nAté que a morte nos separe,\nEu não vou abrir.\n\nGuarani, Guarani, Guarani.\nBandeira em punho, sempre a tremular.\nGuarani, Guarani, Guarani.\nTua camisa é minha pele,\nte amo, meu Guará.\n\nVou gritar gol (Gol).\nVou te seguir,\nPra onde você for, eu vou meu Guarani.\n\nVou gritar gol (Gol).\nEu vou vestir,\na camisa rubro-negra do meu Guarani.\n\nO meu coração, é Guarani.\nEu sou Leão,\naté que a morte nos separe,\nEu não vou abrir.\n\nO meu coração, é Guarani.\nEu sou Leão,\naté que a morte nos separe,\nEu não vou abrir.\n\nGuarani, Guarani, Guarani.\nSeu torcedor é o mais apaixonado.\nGuarani, Guarani, Guarani.\nSerá pra sempre o Leão do Mercado\n\nVou gritar gol (Gol).\nEu vou vestir,\na camisa rubro-negra do meu Guarani."));
         arrayList10.add(new Clube(R.drawable.guarany_pe,"guarany_ce", "Guarany de Sobral", R.raw.guarany_ce, "Guarany, teu nome é glória\nGuarany, símbolo de vitória\nGuarany, na luta és tão forte\nÉs orgulho da \"Princesa do Norte\".\n\nÉs cacique de um vale vibrante\nQue vai muito avante, avante lutar\nPor um povo que ama seu time\nGuarany! Guarany!\nVamos lutar, vamos ganhar."));
         arrayList10.add(new Clube(R.drawable.icasa,"icasa", "Icasa", R.raw.icasa, "O verde vale do cariri, é a bandeira do nosso esquadrão.\nDesfraudada sobre a maior torcida,\nNossa só corrente de Mão em mão.(bis)\nMeu padim nos gramados do céu,\né mais um craque a orar meu Verdão,\na fé nos conduz a vitória, Icasa eterno campeão. Ê, ê, ê, ô icasa (bis)\n\nTemos forças pra lutar (utererê)\nIcasa estamos do teu lado (utererê)\nNão importa o resultado (utererê)\nO que importa é te amar.\n\nVamos jogar para vencer, (utererê)\nNão temos nada a temer (utererê)\nIcasa estamos aí, és a paixão do meu cariri"));
+        arrayList10.add(new Clube(R.drawable.itapipoca,"itapipoca", "Itapipoca", R.raw.itapipoca, "Abram-alas para o tricolor passar\n" +
+                "Moleque travesso meu amor\n" +
+                "Amarelo, verde e branco\n" +
+                "Esquadrão de raça e vencedor\n" +
+                "Ita, Ita\n" +
+                "Itapipoca terror do Ceará\n" +
+                "Meu clube amado\n" +
+                "Eu só vivo pra te amar\n" +
+                "Vamos lá galera\n" +
+                "Pro estádio, pra torcer\n" +
+                "E ver a pelota de pé em pé\n" +
+                "Vamos pra torcida\n" +
+                "Jogar junto pra vencer\n" +
+                "E ver o Itapipoca dar olé\n" +
+                "Vamos lá galera\n" +
+                "Pro estádio, pra torcer\n" +
+                "E ver a pelota de pé em pé\n" +
+                "Vamos pra torcida\n" +
+                "Jogar junto pra vencer\n" +
+                "E ver o Itapipoca dar olé"));
         arrayList10.add(new Clube(R.drawable.pacajus,"pacajus", "Pacajús", R.raw.pacajus, "Vamos vibrar, vibrar, vibrar\nVamos torcer\nVamos lutar, lutar\nVamos vencer\n\nA torcida se agita\nJoga junto pra valer\nPacajús nós amamos você\n\nVamos vibrar, vibrar, vibrar\nVamos torcer\nVamos lutar, lutar\nVamos vencer\n\nA torcida se agita\nJoga junto pra valer\nPacajús nós amamos você\n\nQuadricolor brilhante\nAmado, querido\nO seu nome é sigla importante\nCacique destemido\n\nSou do Ceará\nSou seu torcedor\nPacajús meu clube\nMeu amor\n\nVamos vibrar, vibrar, vibrar\nVamos torcer\nVamos lutar, lutar\nVamos vencer\n\nA torcida se agita\nJoga junto pra valer\nPacajús nós amamos você\n\nVamos vibrar, vibrar, vibrar\nVamos torcer\nVamos lutar, lutar\nVamos vencer\n\nA torcida se agita\nJoga junto pra valer\nPacajús nós amamos você"));
         sectionedExpandableLayoutHelper.addSection("  CEARENSES", arrayList10);
 
         ArrayList<Clube> arrayList11 = new ArrayList<>();
         arrayList11.add(new Clube(R.drawable.asa,"asa", "Asa", R.raw.asa, "Na terra dos marechais, um clube esportivo se destaca. \nPelo valor de seus craques, o ASA DE ARAPIRACA \n \nO seu pendão alvi-negro, sai com garbo varonil, \nconquistando sempre vitórias, sob os céus deste Brasil. \n \nOh! craques da esportiva, o ASA gigante tornai. \nCom bravura e galhardia, ide avante. Lutai! Lutai! \n \nOh! ASA da minha terra, aos píncaros da glória voai, \ne aos vossos admiradores, \nos loiros da vitória legai. \n \nOrgulhoso e altaneiro, o ASA sempre de pé, \nficará nas páginas da história, da terra de Manoel André. "));
+        arrayList11.add(new Clube(R.drawable.comercial_vicosa,"comercial_vicosa", "Comercial de Viçosa", R.raw.comercial_vicosa, "Avante, avante é sangue\n" +
+                "Que impulsiona a força do Comercial\n" +
+                "O nosso batis, tem o esplendor do pavilhão nacional.\n" +
+                "Sois avante, ó bravo\n" +
+                "Jamais seremos  na disputa um time escravo\n" +
+                "A cidade inteira vibra festiva ante o fulgor desta bandeira.\n" +
+                "No campo da batalha,\n" +
+                "A pelota é nossa amiga.\n" +
+                "A posse da medalha,\n" +
+                "Jamais ninguém nos tira.\n" +
+                "Toda pujança em gente\n" +
+                "Da juventude ousada,\n" +
+                "Esplende heroicamente na meta conquistada.\n" +
+                "Avante, avante é sangue\n" +
+                "Que impulsiona a força do Comercial\n" +
+                "O nosso batis, tem o esplendor do pavilhão nacional.\n" +
+                "Sois avante, ó bravo\n" +
+                "Jamais seremos  na disputa um time escravo\n" +
+                "A cidade inteira, vibra festiva ante o fulgor desta bandeira.\n" +
+                "A imagem  tão maravilhosa\n" +
+                "Será sempre imortal no esporte de Viçosa\n" +
+                "Com a sereno e louros de vitória.\n" +
+                "A gregos e helenos cobrimos na vitória.\n" +
+                "Avante, avante é sangue\n" +
+                "Que impulsiona a força do Comercial\n" +
+                "O nosso batis, tem o esplendor do pavilhão nacional.\n" +
+                "Sois avante, ó bravo\n" +
+                "Jamais seremos  na disputa um time escravo\n" +
+                "A cidade inteira, vibra festiva ante o fulgor desta bandeira."));
         arrayList11.add(new Clube(R.drawable.corinthians_alagoano,"corinthians_alagoano", "Corinthians Alagoano", R.raw.corinthians_alagoano, "Em Alagoas surge um clube tricolor.\nCorinthians, Corinthians, Corinthians meu novo amor.\n\nDo Quilombo dos Palmares ao azul dos nossos mares, \nnasceu a força de um novo canto, sou Corinthians, \nsou vermelho, preto e branco.\n\nSou tricolor, oh, oh... sou tricolor, oh, oh... \neu sou Corinthians, sou vermelho, preto e branco.\n\nE toda sua história será de glória, \neu não me engano salvo o Corinthians Alagoano.\n\nSou tricolor, oh, oh... sou tricolor, oh, oh... \neu sou Corinthians, sou vermelho, preto e branco."));
         arrayList11.add(new Clube(R.drawable.coruripe_al,"coruripe", "Coruripe ", R.raw.coruripe, "Alvi verde eu sou,\ncom todo o meu amor\nCoruripe eu sou,\npor que ele retribui o meu amor.\n\nAlvi verde eu sou,\ncom todo o meu amor\nCoruripe eu sou,\npor que ele retribui o meu amor.\n\nNa segundona em 2003,\no Coruripe foi a grande sensação.\npois jogando o fino da bola,\nfoi fazendo escola,\nvai ser nosso campeão...\n\nAlvi verde eu sou,\ncom todo o meu amor\nCoruripe eu sou,\npor que ele retribui o meu amor.\n\nCom Bira e Beltrão no comando,\ne o açúcar Coruripe no coração,\na seleção alvi verde vai ganhar\no passaporte pra primeira divisão.\n\nAlvi verde eu sou,\ncom todo o meu amor\nCoruripe eu sou,\npor que ele retribui o meu amor.\n\nAlvi verde eu sou,\ncom todo o meu amor\nCoruripe eu sou,\npor que ele retribui o meu amor."));
         arrayList11.add(new Clube(R.drawable.csa,"csa", "CSA", R.raw.csa, "Pela pátria, na vida esportiva\nÉ que vamos sempre conquistar\nNossa glória da luta deriva\nÉ o campeão dos campeões CSA\n\nAzulinos impávidos e fortes\nEnfrentemos os nossos rivais\nNosso time não tem adversários\nNão seremos vencidos jamais\n\nCentro Sportivo Alagoano\nNo Mutange eterno vencedor\nSe tremulas a tua bandeira\nAlvi-celeste é com amor\n\nNesse anseio infinito de glória\nEsse Centro Sportivo não tem\nA vaidade que é sempre ilusória\nE que nunca elevou à ninguém\n\nVamos todos em busca das vitórias\nCom o coração na ponta das chuteiras\nUnião e Força CSA\nAzul e Branco a vida inteira\nCentro Sportivo Alagoano\nNo Mutange eterno vencedor\nSe tremulas a tua bandeira\nAlvi-celeste é com amor "));
+        arrayList11.add(new Clube(R.drawable.cse,"cse", "CSE", R.raw.cse_al, "Sou tricolor, sou tricolor\n" +
+                "Com muita raça, com muita fé, com muito amor\n" +
+                "Sou tricolor, sim eu sou de coração\n" +
+                "CSE tu és o nosso campeão\n" +
+                "\n" +
+                "Sou tricolor, sou tricolor\n" +
+                "Com muita raça, com muita fé, com muito amor\n" +
+                "Sou tricolor, sim eu sou de coração\n" +
+                "CSE tu és o nosso campeãoJoga para mostrar como é\n" +
+                "É bola no chão, é bola na rede, é bola no pé\n" +
+                "Tua torcida grita com empolgação\n" +
+                "CSE tu és o nosso campeão\n" +
+                "\n" +
+                "Sou tricolor, sou tricolor\n" +
+                "Com muita raça, com muita fé, com muito amor\n" +
+                "Sou tricolor, sim eu sou de coração\n" +
+                "CSE tu és o nosso campeãoSou tricolor, sou tricolor\n" +
+                "Com muita raça, com muita fé, com muito amor\n" +
+                "Sou tricolor, sim eu sou de coração\n" +
+                "CSE tu és o nosso campeão\n" +
+                "\n" +
+                "Joga para mostrar como é\n" +
+                "É bola no chão, é bola na rede, é bola no pé\n" +
+                "Tua torcida grita com empolgação\n" +
+                "CSE tu és o nosso campeãoJoga para mostrar como é\n" +
+                "É bola no chão, é bola na rede, é bola no pé\n" +
+                "Tua torcida grita com empolgação\n" +
+                "CSE tu és o nosso campeão"));
         arrayList11.add(new Clube(R.drawable.crb,"crb", "CRB", R.raw.crb, "Ao remo pois nosso norte \nDe glórias traçado está \nFaçamos o peito forte \nQue a pátria forte será \nArgonautas da esperança \nVamos bem longe embalar \nNosso sonho de bonança \nAo mar! Ao mar! \nAmemos a natureza \nO mar verde e o céu de anil \nAvante! Pela grandeza \nDo nosso caro Brasil \nNos momentos mais extremos \nA pátria em nós terá fé \nE o futuro venceremos \nAlegres, firmes, de pé \nEm nossas veias ardentes \nDe marujo o sangue corre \nMocidade para a frente \nQue a mocidade não morre. "));
         arrayList11.add(new Clube(R.drawable.ipanema,"ipanema", "Ipanema", R.raw.ipanema, "Ipanema, Ipanema\nTime orgulho do nosso futebol\nIpanema Esporte Clube\nEntre os bons tu és sempre o melhor\n\n\nIpanema, Ipanema\nTime orgulho do nosso futebol\nIpanema Esporte Clube\nEntre os bons tu és sempre o melhor\n\nIpanema, Ipanema querido\nO teu nome é pura tradição\nTodo povo santanense\nSente orgulho de seu tri-campeão\n\nTua torcida é para valer\nGrita forte que há de vencer\nTuas cores vestem o meu coração\nVerde, amarelo canarinho do sertão "));
         arrayList11.add(new Clube(R.drawable.murici_al,"murici", "Murici", R.raw.murici, "Tu és o Clube do meu coração,\nés a paixão desse povo altaneiro.\nFutebol, raça, humildade e ação,\nés campeão, tu és o primeiro.\n\nMurici, tua garra é crescente,\nno teu verde a esperança é real.\nFutebol de primeira e pra frente,\nteu escrespe não tem nada igual.\n\nMurici, teu caminho é de glória,\nno gramado tua força é total.\nNo teu branco clareia a vitória,\ne a galera é alegria geral.\n\nTu és o Clube do meu coração,\nés a paixão desse povo altaneiro.\nFutebol, raça, humildade e ação,\nés campeão, tu és o primeiro.\n\nMurici, o teu lema é vencer,\nsem temer, isso nunca é demais.\nÉs o laço entre o esporte e o prazer,\nsem perder a ternura jamais.\n\nVai em frente campeão das matas,\ntua luta, teu sonho é que faz.\nO sucesso em tua vida retratas,\ncom a pinta alviverde e a paz.\n\nTu és o Clube do meu coração,\nés a paixão desse povo altaneiro.\nFutebol, raça, humildade e ação,\nés campeão, tu és o primeiro. "));
+        arrayList11.add(new Clube(R.drawable.penedense,"penedense", "Penedense", R.raw.penedense, "Eia! Vamos galharda corte,\n" +
+                "ao combate, que é belo vencer, vencer!\n" +
+                "Pois quem é como nós\n" +
+                "bravo e fortes,\n" +
+                "a derrota não deve temer\n" +
+                "\n" +
+                "Penedense guião da vitória,\n" +
+                "que na luta não temos rival,\n" +
+                "o teu lema é lutar pela glória,\n" +
+                "que mais belo, mais nobre ideal?\n" +
+                "\n" +
+                "Penedense guião da vitória,\n" +
+                "que na luta não temos rival,\n" +
+                "o teu lema é lutar pela glória,\n" +
+                "que mais belo, mais nobre ideal?\n" +
+                "\n" +
+                "Salve corte aguerrida,\n" +
+                "afirmação do valor!\n" +
+                "A glória trazes contida\n" +
+                "no teu pendão bicolor.\n" +
+                "\n" +
+                "Alvirrubro pendão altaneiro,\n" +
+                "em valor só te pode passar,\n" +
+                "o alviverde pendão brasileiro,\n" +
+                "que no mundo tremula sem par\n" +
+                "\n" +
+                "Penedense palavra que luz,\n" +
+                "qual sentinela incentiva em nossa alma\n" +
+                "na peleja que a glória conduz,\n" +
+                "Penedense, terás sempre a palma.\n" +
+                "\n" +
+                "Salve corte aguerrida,\n" +
+                "afirmação do valor!\n" +
+                "A glória trazes contida\n" +
+                "no teu pendão bicolor.\n" +
+                "\n" +
+                "Alvirrubro pendão altaneiro,\n" +
+                "em valor só te pode passar,\n" +
+                "o alviverde pendão brasileiro,\n" +
+                "que no mundo tremula sem par"));
         arrayList11.add(new Clube(R.drawable.santa_rita_al,"santa_rita_al", "Santa Rita", R.raw.santa_rita_al, "O Glorioso Santa Rita\nCampeão e imortal\nMeu vibrante Rubro negro\nAguerrido e leal\nSeus torcedores satisfeitos\nSempre de pé a vibrar\nao gigante do pé da serra\nnum só coro a cantar\n\nEu amo esse time e o nome dele eu vou dizer\nSanta Rita\nSanta Rita\nSanta Rita\nVencer, vencer\n\nSanta Rita\nSanta Rita\nEstarei sempre com você\n\nO Glorioso Santa Rita\nés orgulho de minha terra\nBoca da Mata assoberba\nMinha Cidade das Serras\nVibrante, ousado e amoroso\nno campo mostra sua raça\nDesde de 1974 sempre será\nconquistador de taça\n\nEu amo esse time e o nome dele eu vou dizer\n\nSanta Rita\nSanta Rita\nSanta Rita\nVencer, vencer\n\nSanta Rita\nSanta Rita\nEstarei sempre com você"));
         sectionedExpandableLayoutHelper.addSection("   ALAGOANOS", arrayList11);
 
         ArrayList<Clube> arrayList12 = new ArrayList<>();
+        arrayList12.add(new Clube(R.drawable.aguia_de_maraba,"aguia_de_maraba", "Águia de Marabá", R.raw.aguia_maraba, "Sou Águia de coração\n" +
+                "Sou azul e branco\n" +
+                "Sou forte, sou paixão\n" +
+                "Guerreiro, sou campeão!\n" +
+                "É gol, é raça é emoção…\n" +
+                "\n" +
+                "Nas asas do vento sou amor\n" +
+                "Sou Marabá Brasil\n" +
+                "Sou da cor da flor\n" +
+                "Sou paz, sou sul do pará\n" +
+                "Sou Águia de Marabá…\n" +
+                "\n" +
+                "É gol, é bola na rêde\n" +
+                "Sacode a bandeira,\n" +
+                "levanta a poeira.\n" +
+                "Sou Águia, sou Águia,\n" +
+                "sou Águia, sou Marabá…"));
         arrayList12.add(new Clube(R.drawable.bragantino,"bragantino_pa", "Bragantino - PA", R.raw.bragantino_pa, "Bragantino, Bragantino\nNinguém pode negar o teu valor\nBragantino, Bragantino\nA força jovem que vem do interior\nTens como a correnteza\nQue leva de rodão\nTemido, forte, bravo\nEm cada decisão\nTua garra e entusiasmo\nNinguém pode negar\nVermelho, azul e branco\nTem as cores do Pará\nTua garra e entusiasmo\nNinguém pode negar\nVermelho, azul e branco\nTem as cores do Pará\nBragantino, Bragantino\nO adversário vai cansar até tombar\nBragantino, Bragantino\nO teu destino é ser sempre campeão\nFeito esquadrão colosso\nTu és o Tubarão\nDesperta nas torcidas\nPaixão e emoção\nTua garra e entusiasmo\nNinguém pode negar\nVermelho, azul e branco\nTem as cores do Pará"));
+        arrayList12.add(new Clube(R.drawable.castanhal,"castanhal", "Castanhal", R.raw.castanhal, "Estou marcado para defender o meu clube\n" +
+                "Fundado em 1924\n" +
+                "A mais dificil peregrinação\n" +
+                "Mas o instinto de campeão\n" +
+                "\n" +
+                "Trajetória de momentos tão dificeis\n" +
+                "De muita luta e muita paixão\n" +
+                "Eu me orgulho, eu grito, canto e pulo\n" +
+                "Sou Castanhal de coração\n" +
+                "Eu me orgulho, eu grito, canto e pulo\n" +
+                "Sou Castanhal de coração\n" +
+                "\n" +
+                "Em homenagem, ao pássaro tão belo\n" +
+                "Me visto de preto e amarelo\n" +
+                "Que do seu ninho, fez uma rede de gol\n" +
+                "Com suas penas homenageou\n" +
+                "\n" +
+                "Obrigado ó Japim da estrada\n" +
+                "Com tanta força e determinação\n" +
+                "Contagia de amor e de carinho\n" +
+                "De coração pra coração\n" +
+                "\n" +
+                "És tradição do dia 7 de setembro\n" +
+                "Do ano que eu nem sequer me lembro\n" +
+                "Eu me orgulho, eu grito, canto e pulo\n" +
+                "Sou Castanhal de coração\n" +
+                "Eu me orgulho, eu grito, canto e pulo\n" +
+                "Sou Castanhal de coração"));
         arrayList12.add(new Clube(R.drawable.paysandu,"paysandu", "Paysandu", R.raw.paysandu, "De vitórias e louros coroado,\nAltivo, o Paysandu jamais temeu...\nTem um belo, honradíssimo passado,\nSão nobres as batalhas que venceu\n\nCada um de nós guarda no peito,\nValor e orgulho extraordinários\nDas nossas cores têm respeito\nOs mais pujantes adversários\n\"Lutar\"! eis a divisa que trazemos!\n\"Vencer\"! eis a esperança que nos guia!\nLeais e destemidos seguiremos\nA glória que o futuro nos confia!\n\nCada um de nos guarda no peito...\nSomos jovens e ousados paladinos,\nE sempre achar-nos-hão de gladio nu,\nElevando nos prélios mais ferinos\nCom honra o pavilhão do Paysandu\nCada um de nós guarda no peito...\nAmamos os cambates! e na luta,\nComo antigos heróis nos comportamos,\nPor isso a vez do público se escuta,\nSaudar o Paysandu com meus aclamos\nCada um de nós guarda no peito..."));
         arrayList12.add(new Clube(R.drawable.remo,"remo", "Remo", R.raw.remo, "Atletas azulinos somos nós,\ne cumpriremos o nosso dever,\num dia quando unidos para a luta,\no pavilhão sabemos defender.\n\nEnquanto a azul bandeira tremuleja,\no vento a beija, como a sonhar,\nhonrando essa bandeira que paneja,\nnós todos saberemos com amor lutar.\n\nE NÓS ATLETAS TEMOS VIGOR,\nA NOSSA TURMA É TODA DE VALOR (BIS).\n\nNós todos no vigor da mocidade,\nvamos gozando nessa quadra jovial,\ne nós, os azulinos da cidade,\nerguemos vivas ao nosso ideal.\n\nEm cada um de nós mora a esperança,\nnossa pujança, nosso ideal,\ne porque somos do CLUBE DO REMO\nNuma só voz diremos que não tem igual\n\nE NÓS ATLETAS TEMOS VIGOR,\nA NOSSA TURMA É TODA DE VALOR (BIS)"));
         arrayList12.add(new Clube(R.drawable.sao_francisco,"sao_francisco", "São Francisco", R.raw.sao_francisco, "Camisa azul,\nNossa paixão.\nEm cada jogo uma vitória,\nSalve o grande Clube,\nSete vezes campeão!\nVence sempre a garra do “Leão”.\nDe Santarém\nÉ o maior.\nA cor do Tapajós\nO São Francisco há de honrar,\nSeja na glória,\nSeja no azar,\nPois nunca faltará o ardor!\n\nInflama a torcida vibrante\nQue acena a bandeira, e eu sou\nFanático porque festejo,\nCantando alegremente a cada gol:\n\nSão Francisco, São Francisco!\nÉs o glorioso sem par.\n\nSão Francisco, São Francisco!\nÉs o glorioso sem par."));
@@ -232,23 +484,265 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
 
         ArrayList<Clube> arrayList14 = new ArrayList<>();
         arrayList14.add(new Clube(R.drawable.abc,"abc", "ABC", R.raw.abc, "ABC clube do povo\nCampeão das multidões\nSerás sempre o mais querido\nEntre os nossos corações\nEu me orgulho em ser da terra Potiguar\nQuando eu vou para o gramado ver o ABC jogar\n\nÉ bola pra aqui\nÉ bola pra lá\nA turma joga com classe e com raça pra ganhar\nO adversário fica no campo perdido\nSalve o mais querido\nSalve o mais querido\nSalve o mais querido\nSalve o mais querido"));
+        arrayList14.add(new Clube(R.drawable.alegrim,"alegrim", "Alebrim", R.raw.alecrim, "O wiphurra ao nosso bicampeão\n" +
+                "Todo povo te saúde de alma e coração\n" +
+                "Bate olé no grama com o adversário seu\n" +
+                "Alecrim Futebol Clube você é meu\n" +
+                "\n" +
+                "O wiphurra ao nosso bicampeão\n" +
+                "Todo povo te saúde de alma e coração\n" +
+                "Bate olé no grama com o adversário seu\n" +
+                "Alecrim Futebol Clube você é meu\n" +
+                "\n" +
+                "É voz geral da torcida potiguar\n" +
+                "O negócio só tem graça se o Alecrim jogar\n" +
+                "Dá gosto de ver\n" +
+                "Os meninos traçando o bolão pra valer\n" +
+                "Deixando o adversário sem nada poder fazer\n" +
+                "Olé!"));
         arrayList14.add(new Clube(R.drawable.americarn,"americarn", "América RN", R.raw.americarn, "O nosso time mostra a sua raça no jogo\nÉ o América, América\n\nVai conquistando o coração do povo no jogo\nE na torcida eu sou América\nEu sou América e tenho orgulho de ser\nPorque o América em tudo é o melhor\nÉ alegria no esporte e no futebol\nAmérica, América\nÉ alegria no esporte e no futebol\nAmérica,América\n\nMeu coração vibra nas suas cores\nEu sou América, América\nÉ uma canção que canta mil amores, enfim\nCantou América, América\n\nVamos em frente gente Americana\nMostrar que o nosso time entrou pra valer\nBola pra frente, quero ver jogando pra ganhar\nAmérica, América"));
+        arrayList14.add(new Clube(R.drawable.atletico_potiguar,"atletico_potiguar", "Atlético Potiguar", R.raw.atletico_potiguar, "Atlético Potiguar\n" +
+                "Vamos vibrar com o Atlético Potiguar\n" +
+                "Vamos torcer\n" +
+                "Torcer, torcer com emoção\n" +
+                "Sou seu torcedor de corpo, alma e coração\n" +
+                "Atlético você é  meu campeão\n" +
+                "Vamos vibrar com o Atlético Potiguar\n" +
+                "Vamos torcer\n" +
+                "Torcer, torcer com emoção\n" +
+                "Sou seu torcedor de corpo, alma e coração\n" +
+                "Atlético você é  meu campeão\n" +
+                "Você é sol que brilha sempre\n" +
+                "No futebol alegra a gente\n" +
+                "Eu vou pro estádio\n" +
+                "Vou torcer e vou vibrar\n" +
+                "Vibrar, vibrar\n" +
+                "Salve o meu Atlético Potiguar"));
         arrayList14.add(new Clube(R.drawable.baraunas,"baraunas", "Baraúnas", R.raw.baraunas, "Baraúnas, tu és origem Da história que fez tradição. \nFostes chefe, na mata virgem, De uma tribo desta região. \n\nO seu verde da mata encanta. \nTens o branco que a paz reuniu. \nNo vermelho do sangue a esperança \nDe tua garra repleta de brio.\n\nOh tricolor! oh tricolor! \nOh tricolor É no gramado que tu és um vencedor \nOh tricolor! Oh tricolor! \nOh tricolor Leão guerreiro, \nimbatível aonde for.\n\nBaraúnas, és um guerreiro, \nTens a glória de ser campeão No esporte, \nés o primeiro, Bate forte no meu coração.\n\nMossoró, tu és grande e altaneira. \nTens um nome a zelar no Brasil. \nBaraúnas és um marco de história \nDe um clube guerreiro e viril.\n\nOh tricolor! oh tricolor! Oh tricolor \nÉ no gramado que tu és um vencedor \nOh tricolor! Oh tricolor!"));
         arrayList14.add(new Clube(R.drawable.globo,"globo", "Globo", R.raw.globo, "Globo vai entrar em campo\nE vai jogar com alma e coração\nNossa torcida vai vibrar com os gols\nEm Ceará - Mirim no gramado do Barretão\n\nGlobo vai entrar em campo\nE vai jogar com alma e coração\nNossa torcida vai vibrar com os gols\nEm Ceará - Mirim no gramado do Barretão\n\nA Águia vai voar bem alto\nHasteando a bandeira tricolor\nVerde amarelo e preto\nDo Globo eu sou torcedor"));
+        arrayList14.add(new Clube(R.drawable.macau,"macau", "Macau", R.raw.macau, "Macau Esporte Clube altaneiro\n" +
+                "És o primeiro dentro do meu coração\n" +
+                "Meu querido time salineiro\n" +
+                "Forte e guerreiro do nosso esporte bretão\n" +
+                "Filhos das salinas e do mar\n" +
+                "Meu tubarão\n" +
+                "Macau você é o meu campeão\n" +
+                "Azul e negro\n" +
+                "Negro e azul\n" +
+                "Entre mil amores\n" +
+                "Brilham tuas cores\n" +
+                "De leste a oeste\n" +
+                "E de norte a sul\n" +
+                "Macau Esporte Clube altaneiro\n" +
+                "Macau, Macau"));
+        arrayList14.add(new Clube(R.drawable.palmeira_rn,"palmeira_rn", "Palmeira", R.raw.palmeira, "Vamos torcer, torcer, torcer\n" +
+                "Vamos torcer com emoção\n" +
+                "Com emoção\n" +
+                "Sou da torcida esmeraldina\n" +
+                "Que canta e vibra, sua paixão\n" +
+                "Vamos torcer, torcer, torcer\n" +
+                "Vamos torcer de coração\n" +
+                "Salve o guerreiro de Goianinha\n" +
+                "Salve, salve o meu verdão\n" +
+                "Força do agreste\n" +
+                "De tradição\n" +
+                "Meu clube amado\n" +
+                "Palmeira do meu coração"));
         arrayList14.add(new Clube(R.drawable.poriguar,"potiguar", "Potiguar", R.raw.potiguar, "Sobre o branco das salinas\nVibra o sangue de um guerreiro\nAlvirrubro, cuja sina\nÉ chegar sempre primeiro\n\nTradição de gente forte\nSempre pronta pra lutar\nCom a nobreza do esporte\nÉs meu Potiguar\n\nA ruidosa charanga\nBandeiras bailam no ar\nUma torcida se inflama\nPotiguar, Mossoró, Potiguar.\n\nCada passo, nova glória\nQue a história floriu\nDesta jóia que hoje brilha\nO Nordeste do Brasil"));
+        arrayList14.add(new Clube(R.drawable.potyguar,"potyguar", "Potyguar", R.raw.potyguar, "Potyguar meu querido Potyguar\n" +
+                "No esporte tu és uma glória\n" +
+                "Quando entra no campo do jogo\n" +
+                "Seus atletas lutam pela vitória\n" +
+                "\n" +
+                "Com garra suando a camisa\n" +
+                "com o apoio de sua torcida\n" +
+                "Potyguar tu és grande e forte\n" +
+                "No futebol do rio grande do norte\n" +
+                "\n" +
+                "Potyguar! Potyguar!\n" +
+                "Mostra seu valor\n" +
+                "Potyguar! Potyguar\n" +
+                "Com bravura e amor!"));
         arrayList14.add(new Clube(R.drawable.santa_cruz_rn,"santa_cruz_rn", "Santa Cruz de Natal", R.raw.santa_cruz_rn, "Salve o rei do gramado\nSalve o meu tricolor\nSalve o meu clube amado\nSanta Cruz, tu serás sempre um vencedor\nSalve o rei do gramado\nSalve o meu tricolor\nSalve o meu clube amado\nSanta Cruz, tu serás sempre um vencedor\nRaça, garra e força\nDestemido esquadrão\nTu serás sempre meu campeão\nMeu time valente\nGuerreiro e tradicional\nSalve o meu Santa Cruz de Natal\nSalve o meu Santa Cruz de Natal"));
         arrayList14.add(new Clube(R.drawable.sao_goncalo,"sao_goncalo", "São Gonçalo", R.raw.sao_goncalo, "Vou para o estádio vibrar\\nCom minha bandeira na mão\\nEu visto a camisa\\nEsfrego o emblema\\nNo meu coração\\nMeu time é forte e valente\\nSão Gonçalo é meu tesouro\\nQuero ver jogar\\nE eu poder gritar\\nÉ gol do touro\\n\\nSão Gonçalo tu és o melhor\\nDo interior à capital\\nÉs a minha maior alegria\\nNo Rio Grande do Norte\\nMeu time é forte\\nÉ o meu maioral\\nEu vou pedir proteção\\nSão Gonçalo chegou para jogar\\nVai na raça ele é meu campeão\\n\\nO “Touro” é forte\\nÉ bom no esporte\\nEu não posso negar\\nSou São Gonçalo e sou muito fiel\\nSuas cores engrandecem o futebol\\nCom o “Touro” eu vou mais além\\nPode até chover cair tempestade\\nOu então fazer sol.\\n"));
         sectionedExpandableLayoutHelper.addSection("  NORTE-RIOGRANDENSES", arrayList14);
 
         ArrayList<Clube> arrayList15 = new ArrayList<>();
+        arrayList15.add(new Clube(R.drawable.bacabal,"bacabal", "Bacabal", R.raw.bacabal, "Bola pra frente esquadrão bacabalense\n" +
+                "No peito franco da torcida campeã\n" +
+                "Bate um coração azul e branco\n" +
+                "Que mistura nas cores a raça dos povos\n" +
+                "O abraço sincero no grito de gol\n" +
+                "Mostra sua força sua raça tudo em fim\n" +
+                "És o Leão do Mearim\n" +
+                "\n" +
+                "Bola pra frente esquadrão bacabalense\n" +
+                "No peito franco da torcida campeã\n" +
+                "Bate um coração azul e branco\n" +
+                "Que mistura nas cores a raça dos povos\n" +
+                "O abraço sincero no grito de gol\n" +
+                "Mostra sua força sua raça tudo em fim\n" +
+                "És o Leão do Mearim\n" +
+                "\n" +
+                "Tens a tradição no futebol\n" +
+                "Tu és o preferido, és o mais querido\n" +
+                "Teu povo sofrido, contente, aguerrido,\n" +
+                "agita, transpira, delira, suspira de tanta emoção\n" +
+                "\n" +
+                "Bacabal Esporte Clube,\n" +
+                "Futebol é coração\n" +
+                "Bola pra frente nosso grande campeão\n" +
+                "Bacabal Esporte Clube,\n" +
+                "A alegria do povão\n" +
+                "Querido BEC orgulho do meu Maranhão"));
+        arrayList15.add(new Clube(R.drawable.chapadinha,"chapadinha", "Chapadinha", R.raw.chapadinha, "Nessa terra de lindas mulatas\n" +
+                "O esporte já se consagrou\n" +
+                "Com destaque no seu futebol\n" +
+                "Tão galhardo e de grande valor\n" +
+                "\n" +
+                "Chapadinha o galo querido\n" +
+                "Que nasceu pra crescer e vencer\n" +
+                "É o nosso esquadrão preferido\n" +
+                "Que desperta no amanhecer\n" +
+                "\n" +
+                "Altiva torcida\n" +
+                "Vamos torcer e vibrar\n" +
+                "Não deixemos o galo cair\n" +
+                "Pois é hora de o levantar\n" +
+                "\n" +
+                "Para glória de nosso torrão\n" +
+                "A vitória ele vai buscar\n" +
+                "Chapadinha ó galo querido\n" +
+                "Há motivos para comemorar\n" +
+                "\n" +
+                "Tuas cores brilham na bandeira\n" +
+                "Sempre erguida e a tremular\n" +
+                "Alentando o teu torcedor\n" +
+                "Confiante chegar a desvairar\n" +
+                "\n" +
+                "Teus atletas com garra e coragem\n" +
+                "São guerreiros sempre a luta\n" +
+                "E a torcida vai incentivando\n" +
+                "E a vitória brilhante chegar\n" +
+                "\n" +
+                "Altiva torcida\n" +
+                "Vamos torcer e vibrar\n" +
+                "Não deixemos o galo cair\n" +
+                "Pois é hora de o levantar\n" +
+                "\n" +
+                "Para glória de nosso torrão\n" +
+                "A vitória ele vai buscar\n" +
+                "Chapadinha ó galo querido\n" +
+                "Há motivos para comemorar\n" +
+                "\n" +
+                "Na derrota, empate ou vitória\n" +
+                "Ou durante a sofrida partida\n" +
+                "Estaremos sempre solidários\n" +
+                "No aguardo da grande saída\n" +
+                "\n" +
+                "Chapadinha ó galo querido\n" +
+                "Nossa ??? vai sempre cantar\n" +
+                "Expandindo o teu futebol\n" +
+                "E a galera sempre a delirar\n" +
+                "\n" +
+                "Altiva torcida\n" +
+                "Vamos torcer e vibrar\n" +
+                "Não deixemos o galo cair\n" +
+                "Pois é hora de o levantar\n" +
+                "\n" +
+                "Para glória de nosso torrão\n" +
+                "A vitória ele vai buscar\n" +
+                "Chapadinha ó galo querido\n" +
+                "Há motivos para comemorar"));
         arrayList15.add(new Clube(R.drawable.cordino,"cordino", "Cordino ", R.raw.cordino, "Canta meu Cordino Esporte Clube\nCanta com amor a tua glória\nCanta com a tua voz altaneira\nQue a tua bandeira bem alto tremula\nNo Pavilhão da vitória\n\nEnfrentarás lutando pelo teu valor\nE vencerás com honra, glória e ardor\nQuer na paz, quer na luta, vencerás!\nSalve Cordino Esporte Clube!\nNome de luz e amor\n\nEnfrentarás lutando pelo teu valor\nE vencerás com honra, glória e ardor\nQuer na paz, quer na luta, vencerás!\nSalve Cordino Esporte Clube!\nNome de luz e amor"));
         arrayList15.add(new Clube(R.drawable.imperatriz_ma,"imperatriz_ma", "Imperatriz ", R.raw.imperatriz_ma, "Imperatriz, Teu nome é uma bandeira\nExaltai o vosso altivo pavilhão\nTu és o mais forte no esporte\nUm clube muitas vezes campeão\n\nEm tuas cores o esplendor\nNo campo a tua garra faz vibrar o torcedor\nE a galera num grito de guerra, buscando a vitória aplaude os heróis\nTua torcida num grito de guerra no campo aplaude os teus onze heróis\nCAVALO DE AÇO! CAVALO DE AÇO!\n\nEm teus passado, não há fracasso\nO teu presente orgulha a gente \nNo peito um escudo que inflama\nE busca fama com muito ardor \n\nBem alto eu aclamo com orgulho:\nSou Alvi-Rubro com muito amor"));
+        arrayList15.add(new Clube(R.drawable.juventude_ma,"juventude_ma", "Juventude", R.raw.juventude_ma, "O Juventude é uma time brilhante\n" +
+                "É o galo da princesa do sertão\n" +
+                "De cores vermelho, preto e branco\n" +
+                "Que está no coração da nação\n" +
+                "\n" +
+                "**O Juventude é Caxiense\n" +
+                "O Juventude é paz e amor\n" +
+                "O Juventude é um clube de glórias\n" +
+                "Que o Maranhão consagrou**\n" +
+                "\n" +
+                "**Muitas vezes campeão caxiense\n" +
+                "Muitos títulos já conquistou\n" +
+                "Com peito cheio de amor\n" +
+                "Cantar bem forte a nossa torcida**\n" +
+                "\n" +
+                "**O Juventude é Caxiense\n" +
+                "O Juventude é paz e amor\n" +
+                "O Juventude é um clube de glórias\n" +
+                "Que o Maranhão consagrou**\n" +
+                "\n" +
+                "**Fundado em 14 de Junho de 1979\n" +
+                "É o rubro negro caxiense\n" +
+                "Que está sempre na frente com suas vitórias\n" +
+                "O Juventude é o campeão dos campeões\n" +
+                "O Juventude é o campeão dos campeões**"));
         arrayList15.add(new Clube(R.drawable.maranhao,"maranhao", "Maranhão", R.raw.maranhao, "Moto Club de tantas tradições\nMaranhão Atlético Clube\nO teu nome é virtude, é luta é grandeza é emoção\nMaranhão bandeira do norte\nDo nosso esporte és uma consagração\nMaranhão a tua história\nNa nossa memória sempre há de existir\nDemolidor de cartazes\nCom os seus onze azes\nÉ um astro a aluzir\n\nMaranhão Atlético Clube\nO teu nome é virtude, é luta é grandeza é emoção\nMaranhão bandeira do norte\nDo nosso esporte és uma consagração\n\nMaranhão a tua história\nNa nossa memória sempre há de existir\nDemolidor de cartazes\nCom os seus onze azes\nÉ um astro a aluzir\n\nPelas taças que já conquistaste\nNas contendas que ganhaste\nO seu nome cresceu\nÉs Maranhão esquadrão de quatro cores\nReunindo a luz e a glória de Deus"));
         arrayList15.add(new Clube(R.drawable.motoclibe,"motoclube", "Moto Clube", R.raw.motoclube, "Moto Club de tantas tradições\nColocado entre grandes vencedores\nSeu nome vive em nossos corações\nE nos lábios de muitos torcedores\n\nCampeão de feitos gloriosos\nDe heroísmo sem par e de coragem\nReceba agora mesmo neste instante\nA nossa mais esplendida homenagem\n\nOh! Moto surpreendente\nTime de fibra e garra\nQuando te lança à frente\nNenhuma defesa te barra\n\nNos gramados daqui ou de outros Estados\nHonra o Moto o valor da nossa gente\nGrande foi em todo seu passado\nAinda maior agora em seu presente\n\nNosso lema é vencer de ânimo forte\nCom justa fama de Papão do Norte\nMarchemos nesse instante para a glória\nNa conquista de mais uma vitória."));
+        arrayList15.add(new Clube(R.drawable.sabia,"sabia", "Sábia", R.raw.sabia_ma, "Sou Sabiá\n" +
+                "O time mais popular.\n" +
+                "Sou campeão\n" +
+                "Da Princesa do Sertão.\n" +
+                "\n" +
+                "Fundado em 2007\n" +
+                "Por um grupo de amigos\n" +
+                "Para ser campeão!\n" +
+                "\n" +
+                "Eis o tricolor mais forte;\n" +
+                "Verde, branco e amarelo\n" +
+                "Como é tão belo!\n" +
+                "\n" +
+                "Saiu da poesia\n" +
+                "Das palmeiras;\n" +
+                "Do poeta Gonçalves Dias\n" +
+                "Pra vencer nos gramados\n" +
+                "Com brilho e muita raça\n" +
+                "Eu sou é Sabiá\n" +
+                "\n" +
+                "Sou Sabiá\n" +
+                "O time mais popular.\n" +
+                "Sou campeão\n" +
+                "Da Princesa do Sertão\n" +
+                "\n" +
+                "Sabiá vai voar alto\n" +
+                "E conquistar grandes vitoria\n" +
+                "No maranhão.\n" +
+                "\n" +
+                "Vamos lá Sabiá\n" +
+                "Conquistar o céu de anil\n" +
+                "Do meu Brasil.\n" +
+                "\n" +
+                "Tua bandeira\n" +
+                "É um manto sagrado\n" +
+                "Que trêmula,\n" +
+                "Quando pisa no gramado\n" +
+                "Cada gol, cada jogada\n" +
+                "Faz a galera gritar;\n" +
+                "Eu sou é Sabiá."));
+        arrayList15.add(new Clube(R.drawable.sao_jose_ribamar,"sao_jose_ribamar", "São José de Ribamar", R.raw.sao_jose_ribamar, "Salve São José de Ribamar, da mais nobre tradição \nSalve terra hospitaleira, que amamos com muita emoção\nTeu lindo céu estrelado com presença do cruzeiro\nEnche de esperança o nosso estado\nE o nosso Brasil inteiro.\nSalve São José de Ribamar, da mais nobre tradição\nSalve terra hospitaleira, que amamos com muita emoção\nTeu lindo céu estrelado com presença do cruzeiro\nEnche de esperança o nosso estado\nE o nosso Brasil inteiro.\nO ensino de nossas escolas sempre está presente\nDando assistência à classe discente\ne levando o município a um futuro melhor\nO Importante é primar cada vez mais por nossa cultura\nE o município ser beleza pura\nPro nosso progresso ser muito maior.\n"));
         arrayList15.add(new Clube(R.drawable.sampaio,"sampaio_correa", "Sampaio Correia", R.raw.sampaio_correa, "Sampaio Corrêa \nA Bolívia Querida, de maior torcida neste Maranhão \nSampaio Corrêa \nDo nosso esporte o mais antigo esquadrão \n \nSua camisa encarnada, verde e amarelo \nVeste gigante do esporte em constante duelo \nSampaio Corrêa, time de escol \nMaior torcida, tradição em futebol"));
         sectionedExpandableLayoutHelper.addSection("  MARANHENSES", arrayList15);
 
         ArrayList<Clube> arrayList16 = new ArrayList<>();
+        arrayList16.add(new Clube(R.drawable.atletico_de_cajueiras,"atletico_de_cajueiras", "Atlético Cajazeirense", R.raw.atletico_cajazeirense,"Atlético o clube cazajeirense\n" +
+                "Orgulha a gente o teu pendão\n" +
+                "És e serás sempre assim\n" +
+                "Fadado a glórias\n" +
+                "Muitas hão de vir\n" +
+                "\n" +
+                "Teu branco nos lembra a paz\n" +
+                "E o azul do céu a grandeza nos trás\n" +
+                "Te amamos de coração\n" +
+                "Trovão azul do sertão.\n" +
+                "Trovão azul do sertão.\n" +
+                "\n" +
+                "1948, um ano iluminado\n" +
+                "O Hegino Pires com a torcida uma festa\n" +
+                "Um palco consagrado."));
         arrayList16.add(new Clube(R.drawable.botafogo_pb,"botafogo_pb", "Botafogo PB", R.raw.botafogo_pb, "Botafogo Paraibano\nVocê é o mais Belo e glorioso\nQue enche de alegria o seu povo\nCom tantas glórias e tantas vitórias!\n\nBranca, preta e vermelha\nDo tricolor do contorno são as cores\nQue vibram nas mãos dos torcedores\nEm forma de lindas bandeiras\n\nVamos ganhar o jogo sim!\nVamos dar um olé!\nEncher os olhos desse povo todo\nQue está lotando o Almeidão!\n\nO nosso Tricolor é sempre campeão\nPorque nosso timão tem muito mais vigor!!!"));
         arrayList16.add(new Clube(R.drawable.campinense,"campinense", "Campinense", R.raw.campinense, "Pelos campos do Brasil\nA raposa a correr\nVitórias glórias mil\nGarra e raça pra valer\n\nAs cores da Paraíba\nE a grande inspiração\nRubro-negro na camisa\nSangue,nervos e coração\nGrande campeão paraibano\nÉ o Campinense com razão\nTitulos,troféis ano após ano\nSalve a raposa bixo papão\n\nT.O.R.A vibrante extremecida\nE as charangas a tocar\nEntusiasmada toda torcida\nSeu clube a incentivar\nFutebol é bola no barbante\nAlegria das multidões\nVamos da as mãos raposa avante\nPra maratona dos campeões.\n"));
         arrayList16.add(new Clube(R.drawable.esporte_patos,"esporte_patos", "Esporte de Patos", R.raw.esporte_patos, "Esporte, Esporte, Esporte,\\nO Alvirrubro do meu coração. Bis\\nEsporte, Esporte, Esporte,\\nÉ o Patinho terror do sertão.\\n\\nQuando ele arranca\\nTodos sabem como é\\nÉ mais um gol\\nE a turma segue dando olé\\nDesde Inocêncio\\nMuita Glória, Muito Amor\\nEsse Patinho é mesmo o Terror.\\n"));
@@ -271,6 +765,42 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         arrayList18.add(new Clube(R.drawable.atletico_ac,"atletico_ac", "Atlético Acreano", R.raw.atletico_ac, "Glorioso clube Atlético Acreano\nAdorado sempre galo carijó\nSempre foste o orgulho da cidade\nNo gramado foste sempre o melhor\n\nDefender as tuas cores é o teu lema\nSer humilde é a sua tradição\nO Atlético tem um objetivo\nCompetir para sagrar-se campeão\nCompetir para sagrar-se campeão\n\nNo tapete verde tu lutas com fé\nA torcida aplaude pedindo \"olé\"\nBandeiras erguidas estão tremulando\nTu és o orgulho do povo acreano\n\nTuas lindas cores são brancos e azul anil\nPara mim tu és o melhor do Brasil\nSempre combatido jamais vencido\nTu és o meu orgulho, galinho querido"));
         arrayList18.add(new Clube(R.drawable.galvez,"galvez", "Galvez", R.raw.galvez, "Galvez é uma estrela vermelha\nQue reluz no firmamento do mundo do futebol\nMantém a eterna centelha\nDa coragem de um heroico aventureiro espanhol\n\nNão há tristeza ou talvez\nQuando entra em campo a paixão\nQue dá ao ataque e à defesa\nA certeza de ser campeão\n\nLutar pra ser brasileiro \nMostra que a firmeza faz possível o ideal\nNo Acre há um povo guerreiro\nQue mostra na luta a garra do Gavião Real\n\nNão há tristeza ou talvez\nQuando entra em campo a paixão\nQue dá ao ataque e à defesa\nA certeza de ser campeão\nTorcer, e mostrar a força da união \n\nO povo e a Polícia Militar\nHaja coração, vale a pena tanto amor\nEstá no Arena o Imperador\nTorcer, e mostrar a força da união\n\nO povo e a Polícia Militar\nHaja coração, vale a pena tanto amor\nEstá no Arena o Imperador\nTorcer, e mostrar a força da união"));
         arrayList18.add(new Clube(R.drawable.juventus_acre,"juventus_acre", "Juventus", R.raw.juventus_acre, "Juventus, Juventus\nCantar-te é o meu prazer\nJuventus, Juventus\nTe adorei até morrer\n\nO lema do Juventus é vencer\nA tendência do Juventus é crescer\nAtlético Clube Juventus\nGaranto mil vitórias\nAinda há de ter\n\nJuventus, Juventus\nCantar-te é o meu prazer\nJuventus, Juventus\nTe adorei até morrer\n\nO lema do Juventus é vencer\nA tendência do Juventus é crescer\nAtlético Clube Juventus\nGaranto mil vitórias\nAinda há de ter\n\nTua torcida é bem organizada\nTem um esquadrão águia à frente\nTua bandeira no alto há tremular\nQue envolve o coração da gente"));
+        arrayList18.add(new Clube(R.drawable.nauas,"nauas", "Náuas", R.raw.nauas, "Entre as tranças da mata altaneira\n" +
+                "Cai a luz se induz dos festões\n" +
+                "Empolgante brasileira\n" +
+                "Nossa equipe se diz dos nossos brasõe\n" +
+                "É do Náuas a bela corte\n" +
+                "E na rena se dispõe a lutar\n" +
+                "Sempre altiva, sempre forte\n" +
+                "Para o laurel conquistar\n" +
+                "Sempre altiva, sempre forte\n" +
+                "Para o laurel conquistar\n" +
+                "Avante nobres lutadores\n" +
+                "Sem temer, sem fugir\n" +
+                "Defender as nossas cores\n" +
+                "Nossa glória imortal no porvir\n" +
+                "Avante nobres lutadores\n" +
+                "Sem temer, sem fugir\n" +
+                "Defender as nossas cores\n" +
+                "Nossa glória imortal no porvir\n" +
+                "Desfraldando o indio verde estandarte\n" +
+                "O teu emblema de amor fraternal\n" +
+                "Nós os filhos, filhos fortes\n" +
+                "Temos o prazer triunfal\n" +
+                "O inimigo temos o valor a vida\n" +
+                "A conquista de um belo de um troféu\n" +
+                "EM uma luta destemida\n" +
+                "Longe de ti nos tristes ao léu\n" +
+                "Avante nobres lutadores\n" +
+                "Sem temer, sem fugir\n" +
+                "Defender as nossas cores\n" +
+                "Nossa glória imortal no porvir\n" +
+                "Avante nobres lutadores\n" +
+                "Sem temer, sem fugir\n" +
+                "Defender as nossas cores\n" +
+                "Nossa glória imortal no porvir\n" +
+                "Defender as nossas cores\n" +
+                "Nossa glória imortal no porvir"));
         arrayList18.add(new Clube(R.drawable.placido,"placido", "Plácido de Castro", R.raw.placido, "Com a força de um tigre luta\nE vibra sem parar, seu plantel é uma fortaleza\nQque ninguém pode ultrapassar.\n\nSua história entre os grandes foi escrita e ninguém pode apagar.\nQuando plácido entra numa briga, entra sempre pra ganhar...\nPlácido de Castro amado clube do Abunã\nA sua torcida que grita e vibra pra sempre vai cantar...\nPlácido de Castro amado Tigre do Abunã\nA tua torcida que canta e vibra pra sempre vai te amar...\n\nTuas cores nos alegra e nos leva aonde for,\nA paixão que tinha em nosso peito se transforma em amor.\nCada jogo uma história que dá gosto de contar, quando\nPlácido entra numa briga, entra sempre pra ganhar..."));
         arrayList18.add(new Clube(R.drawable.rio_branco_ac,"rio_branco_ac", "Rio Branco - AC", R.raw.rio_branco_ac, "O Rio Branco é o primeiro\nClube forte e varonil\nO seu time é altaneiro\nNesses longes do Brasil\n\nJá tão cheio de vitórias\nO Alvi-rubro pavilhão\nRio Branco entre glórias\nSerás sempre o campeão"));
         sectionedExpandableLayoutHelper.addSection("  ACREANOS", arrayList18);
@@ -283,10 +813,60 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         sectionedExpandableLayoutHelper.addSection("  PIAUIENSE", arrayList19);
 
         ArrayList<Clube> arrayList20 = new ArrayList<>();
+        arrayList20.add(new Clube(R.drawable.aruc,"aruc", "ARUC", R.raw.aruc, "Eu sou um rio\n" +
+                "Transbordando de amor\n" +
+                "Eu sou ARUC,\n" +
+                "sou um vencedor\n" +
+                "\n" +
+                "Voa gavião,\n" +
+                "Leva na garra o pandeiro\n" +
+                "Mostra pra esse povo\n" +
+                "Que o teu samba é verdadeiro\n" +
+                "\n" +
+                "Teu azul e branco\n" +
+                "Veio lá de Madureira\n" +
+                "Enxuga teu pranto,\n" +
+                "Que eu não vim pra brincadeira\n" +
+                "\n" +
+                "Fui abençoada\n" +
+                "Pelo braço de Natal\n" +
+                "Sou glorificada campeã\n" +
+                "Do futebol e do carnaval\n" +
+                "\n" +
+                "Tenho alma de guerreiro\n" +
+                "No gramado, um lutador\n" +
+                "Vou soltar o meu grito, é gol\n" +
+                "Por isso é que Cruzeiro eu sou."));
         arrayList20.add(new Clube(R.drawable.brasilia,"brasilia", "Brasília", R.raw.brasilia, "Avante, Brasília, avante!\nTodos gritam por você\nComo um sol irradiante\nEi de tê-lo até morrer\n\nSua garra exuberante\nE o magnífico esplendor\nMe deixa muito contente\nColorado, meu grande amor\n\nBrasília, Brasília\nVocê é o maior em tradição\nBrasília, Brasília\nSempre será o eterno campeão\nBrasília, Brasília\nEu sempre lhe amei\nBrasília, Brasília\nColorado sempre serei."));
         arrayList20.add(new Clube(R.drawable.brasiliense,"brasiliense", "Brasiliense", R.raw.brasiliense, "Com muita garra e toda a nossa vibração\nSalve o Brasiliense, futebol clube, meu irmão\nNo campo, uma pintura, uma aquarela\nE na torcida explode essa febre amarela\n\nBis\nAs cores do meu coração\nVerde, amarelo e branco\nO meu time é campeão\n\nRefrão\nÉ na palma da mão\nÉ com a bola no pé\nÉ na palma da mão\nÉ com a bola no pé\nVacilou caiu na boca, na boca do Jacaré"));
         arrayList20.add(new Clube(R.drawable.ceilandia,"ceilandia", "Ceilândia", R.raw.ceilandia, "Ceilândia agora está em festa\nCom a maior animação\nComemorando mais uma vitória\nDesta vez será campeão\n\nMais um, Ceilândia, mais um...\nMais um gol pra firmar tua liderança\nVais demonstrando tua garra\nAumentando nossa fé e confiança\n\nMais um, Ceilândia, mais um...\nExplode tua torcida de emoção\nVais conquistando mais um título\nEstá na hora da tua decisão"));
         arrayList20.add(new Clube(R.drawable.gama,"gama", "Gama", R.raw.gama, "Gama sempre Gama \nEu sou gamense até morrer \nAguerrido esquadrão de ouro \nTesouro que eu não posso esquecer \nOutras vitórias e glórias virão \nDessa pujança que és tu \nTua torcida não se intimida \nPorque o lema é vencer \nCom lealdade, com galhardia \nGigante do esporte \nO mais forte há de ser"));
+        arrayList20.add(new Clube(R.drawable.paranoa,"paranoa", "Paranoá", R.raw.paranoa_df, "Paranoá terra linda\n" +
+                "O próprio pudor\n" +
+                "Terra linda que fala de amor\n" +
+                "Os heróis que aqui despontaram\n" +
+                "Dessa terra plantaram o calor\n" +
+                "\n" +
+                "Vieram, sofreram, viveram\n" +
+                "A dor escassez das duras\n" +
+                "Bem firmes valentes guerreiros\n" +
+                "Lutaram felizes venceram\n" +
+                "\n" +
+                "E hoje no esporte despontam\n" +
+                "Na vitória sempre alcançar\n" +
+                "Ao grito do som esplêndido\n" +
+                "É gol, é gol\n" +
+                "Ao grito do gol avançar\n" +
+                "É gol, é gol\n" +
+                "Ao grito do gol avançar\n" +
+                "\n" +
+                "E hoje no esporte despontam\n" +
+                "Na vitória sempre alcançar\n" +
+                "Ao grito do som esplêndido\n" +
+                "É gol,é gol\n" +
+                "Ao grito do gol avançar\n" +
+                "É gol,é gol\n" +
+                "Ao grito do gol avançar"));
         arrayList20.add(new Clube(R.drawable.planatilna,"planatilna", "Planaltina", R.raw.planatilna, "Planaltina\nÉs cum clube tão querido,\nÉs também orgulho do povão\nTe queremos com muita alegria,\nTu nos dás confiança e emoção\n\nDentre todos,\nFoste sempre o preferido,\nDa maior torcida do planalto,\nTendo garra bastante pra vencer\nPlanaltina,\nÉs um clube consagrado\n\nÉs o orgulho que sempre desejei\nE aceito como tu és\nDesta torcida que muito o ama,\nE cresce de mãos dadas,\nUnida pela fé."));
         arrayList20.add(new Clube(R.drawable.sobradinho,"sobradinho", "Sobradinho", R.raw.sobradinho, "És o bravo leão da cidade\nSem temer os mais sérios rumores\nPra vencer os mais duros rivais\nDefendendo tuas honradas cores\n\nComo herói, foste sempre destemido\nEnfrentando qualquer time no gramado\nMais que tudo, foste sempre o mais querido\nÉs o grande leão consagrado\n\nVencer! Vencer!\nNossa lema é: Vencer!\nSobradinho, meu clube querido,\nHei de amá-lo, amá-lo até morrer\n\nVencer! Vencer!\nNossa lema é: Vencer!\nSobradinho, meu clube querido,\nHei de amá-lo, amá-lo até morrer"));
         sectionedExpandableLayoutHelper.addSection("  BRASILIENSES", arrayList20);
@@ -314,23 +894,318 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         sectionedExpandableLayoutHelper.addSection("   CAPIXABA", arrayList22);
 
         ArrayList<Clube> arrayList23 = new ArrayList<>();
+        arrayList23.add(new Clube(R.drawable.aguia_negra,"aguia_negra", "Águia Negra", R.raw.aguia_negra, "O Águia vai jogar\n" +
+                "E a gente vai vibrar\n" +
+                "Toda a cidade veio pra ver\n" +
+                "Vamos arrepiar\n" +
+                "O Águia Negra veio pra vencer\n" +
+                "Você me faz feliz\n" +
+                "Me deixa tão afim\n" +
+                "Meu rubro-negro me levam alem\n" +
+                "Basta você jogar\n" +
+                "E o bicho vai pegar tão bem\n" +
+                "Não quero desgrudar de você\n" +
+                "Paixão de muito tempo\n" +
+                "É grito na garganta (é gol)\n" +
+                "Já sei que não tem jeito, tá feito\n" +
+                "O Águia Negra arrasou\n" +
+                "Abalou, abalou\n" +
+                "Sacudiu, balançou\n" +
+                "Águia Negra é amor de verdade\n" +
+                "Abalou, abalou\n" +
+                "Vibração é paixão da cidade\n" +
+                "Abalou, abalou\n" +
+                "Sacudiu, balançou\n" +
+                "Águia Negra é amor de verdade\n" +
+                "Abalou, abalou\n" +
+                "\n" +
+                "Vibraçã é paixão da cidade"));
         arrayList23.add(new Clube(R.drawable.cene,"cene", "Cene", R.raw.cene, "Nós somos do CENE avante\nCom muito amor e paixão\nNa luta buscando conquistas\nDemonstramos nossa união\n\nVencer, CENE vencer CENE\nVencer é a nossa missão\nVencer, CENE vencer CENE\nCom garra e determinação\n\nNascemos em um lindo bosque\nDe natureza sem igual\nDos rios de águas cristalinas\nLigando-nos ao Pantanal\n\nNós temos em nossas planícies\nFlora e fauna que nunca se viu\nNa beleza de nossas campinas\nLugar mais belo do Brasil \n\nVencer, CENE vencer CENE\nVencer é a nossa missão\nVencer, CENE vencer CENE\nCom garra e determinação\n\nNossa cidade tem história\nDos valores do bom futebol\nQue abriram o caminho da glória\nNos dando um lugar ao sol\n\nNossa força vem do princípio\nDa justiça e perseverança\nHarmonia de corpo e de mente\nO esporte da nova esperança\n\nVencer, CENE vencer CENE\nVencer é a nossa missão\nVencer CENE vencer CENE\nCom garra e determinação\n\nSe o comercial entra em campo\nEle precisa de você\nA torcida é a alma do time\nCom boa torcida é mais fácil vencer\n\nSalve o Comercial!\nSalve o nosso torcedor!\nSalve o brado da torcida que empresta ao time seu grande valor!"));
         arrayList23.add(new Clube(R.drawable.comercial_ms,"comercial_ms", "Comercial - MS", R.raw.comercial_ms, "Comercial\né o maior\n\nA torcida já consagrou\nNossa torcida é a melhor\nSalve o nosso torcedor!\n\nSe o comercial entra em campo\nEle precisa de você\nA torcida é a alma do time\nCom boa torcida é mais fácil vencer\n\nSalve o Comercial!\nSalve o nosso torcedor!\nSalve o brado da torcida que empresta ao time seu grande valor!\n\nComercial\né o maior\n\nA torcida já consagrou\nNossa torcida é a melhor\nSalve o nosso torcedor!\n\nSe o comercial entra em campo\nEle precisa de você\nA torcida é a alma do time\nCom boa torcida é mais fácil vencer\n\nSalve o Comercial!\nSalve o nosso torcedor!\nSalve o brado da torcida que empresta ao time seu grande valor!"));
         arrayList23.add(new Clube(R.drawable.corumbaense,"corumbaense", "Corumbaense", R.raw.corumbaense, "Corumbaense avante\nTu és fibra tu és raça\nAvante carijó avante\nEm busca de mais uma taça\n\nO teu passado de glórias\nRestou a história, galo panteiro\nVitórias quantas são tantas\nCorumbaense esquadrão guerreiro\n\nTua torcida galo\nCarijó da avenida\nSe levanta e canta\nAté o final da partida\n\nVai galo\nMarca por zona\nOu vai de marcação cerrada\nChega junto na bola\nPra dominar a jogadaVai galo\nMarca por zona\nOu vai de marcação cerrada\nChega junto na bola\nPra dominar a jogada"));
         arrayList23.add(new Clube(R.drawable.novoperario,"novooperario", "Novoperário", R.raw.novooperario, "Mato Grosso do Sul está em festa,\no time do povo novamente é o campeão.\nNovoperario, tu já nasceste grande.\nGalo guerreiro e vencedor.\nE nos gramados, não tem pra ninguém.\nNos adversários causa temor.\nSua torcida vibrante e feliz.\nTranspõe pro campo garra e amor.\nCom as bandeiras tremulando de emoção,\nvamos gritar novamente: É CAMPEÃO!\nO ouro negro é a cor desta nação,\nE o preto e branco no coração.\nO ouro negro é a cor desta nação,\nE o preto e branco no coração.\nNovoperario, tu já nasceste grande.\nGalo guerreiro e vencedor.\nNovoperario, tu já nasceste grande.\nGalo guerreiro e vencedor."));
         arrayList23.add(new Clube(R.drawable.operario_ms,"operario_ms", "Operário - MS", R.raw.operario_ms, "Garra, amor e tradição\nDestinado a ser campeão\nDe Mato Grosso o mais querido\nE em campo é o mais temido\n\nGarra, amor e tradição\nDestinado a ser campeão\nDe Mato Grosso o mais querido\nE em campo é o mais temido\n\nO Operário é dono da torcida\nDe Campo Grande a mais unida\nÉ Galo em qualquer terreiro\nE valente como o povo brasileiro\n\nO, o , o , pe, e, e, ra, ri, ô ,ô, ô\nO, o , o , pe, e, e, ra, ri, ô ,ô, ô\n\nGarra, amor e tradição\nPreto e branco está no coração\nPra aqueles que sabem torcer\nE o Operário só pensa em vencer"));
+        arrayList23.add(new Clube(R.drawable.saad,"saad", "SAAD", R.raw.saad_ms, "São Caetano voltou a sorrir,\n" +
+                "Pois agora podemos torcer\n" +
+                "Surge um novo Campeão\n" +
+                "Saad do meu Coração\n" +
+                "\n" +
+                "A Campanha tão linda que fêz\n" +
+                "Com a ajuda da nossa cidade\n" +
+                "O azul mostra a sua coragem\n" +
+                "E o branco toda a amizade\n" +
+                "\n" +
+                "Saad, Saad, Saad\n" +
+                "Vamos pra frente vencer\n" +
+                "Bandeira Branca e Azul,\n" +
+                "De São Caetano do Sul\n" +
+                "\n" +
+                "Saad, Saad, Saad\n" +
+                "\n" +
+                "Vamos pra frente vencer\n" +
+                "Bandeira Branca e Azul,\n" +
+                "De São Caetano do Sul"));
+        arrayList23.add(new Clube(R.drawable.serc,"serc", "SERC", R.raw.serc_ms, "SERC, o nosso grande campeão.\n" +
+                "A sua raça é tradição\n" +
+                "É bicho solto no bolsão\n" +
+                "SERC, a sua historia é de glória.\n" +
+                "E a trajetória é de vitória\n" +
+                "Em Mato Grosso do Sul\n" +
+                "\n" +
+                "SERC, é raça pura em decisão.\n" +
+                "A sua saga é de vencer\n" +
+                "E a torcida é toda vibração\n" +
+                "Salve, salve o nosso tricolor.\n" +
+                "Azul, vermelho e o branco com amor.\n" +
+                "Salve, salve o nosso tricolor.\n" +
+                "Azul, vermelho e o branco com amor\n" +
+                "\n" +
+                "O branco é a paz da imensidão\n" +
+                "E o vermelho é nosso sangue, coração.\n" +
+                "E o azul é nosso céu azul,\n" +
+                "Para a beleza de Chapadão do Sul.\n" +
+                "Para a beleza de Chapadão do Sul\n" +
+                "\n" +
+                "SERC é Sociedade Esportiva Recreativa de Chapadão\n" +
+                "Contagiante a galera se emotiva\n" +
+                "SERC é força confiança e emoção\n" +
+                "SERC é força confiança e emoção\n" +
+                "\n"));
         arrayList23.add(new Clube(R.drawable.sete_de_setembro,"sete_setembro", "Sete de Setembro", R.raw.sete_setembro, "O 7 de Setembro de Dourados,\né o orgulho do povo douradense.\nClube empresa, nasceu líder,\nnasceu grande, vencedor, polivalente.\nO 7 de Setembro de Dourados,\n\nvermelho, azul e branco é sua cor\nTime joga inteligente,\njoga pra frente e com muito amor\n7, 7, 7 de Setembro, 7, 7, 7 de Setembro,\nVista a camisa e pegue esta bandeira!!!"));
         sectionedExpandableLayoutHelper.addSection("   SUL-MATO GROSSENSE", arrayList23);
 
         ArrayList<Clube> arrayList24 = new ArrayList<>();
         arrayList24.add(new Clube(R.drawable.gurupi,"gurupi", "Gurupi", R.raw.gurupi, "Somos Gurupi Esporte Clube\nNossa base é forte e não à quem a derrube\nVencemos através de uma união\nJogando com os pés, cabeça e coração\nTemos o apoio da torcida\nQue nos incentiva durante toda a partida\nCom garra e com força, estamos ai\nA vitória é nossa, vai Gurupi\n\nBola na rede, troféu na mão\nMatando a sede, de ser campeão\nVencendo barreiras, quebrando tabus\nGurupi, camaleão do sul\n\nSomos Gurupi Esporte Clube\nNossa base é forte e não à quem a derrube\nVencemos através de uma união\nJogando com os pés, cabeça e coração\n\nTemos o apoio da torcida\nQue nos incentiva durante toda a partida\nCom garra e com força, estamos ai\nA vitória é nossa, vai Gurupi\n\nBola na rede, troféu na mão\nMatando a sede, de ser campeão\nVencendo barreiras, quebrando tabus\nGurupi, camaleão do sul\n\nBola na rede, troféu na mão\nMatando a sede, de ser campeão\nVencendo barreiras, quebrando tabus\nGurupi, camaleão do sul"));
         arrayList24.add(new Clube(R.drawable.interporto,"interponto", "Interporto", R.raw.interponto, "Salve, salve Interporto\nGlórias fostes consagrado\nMeu orgulho é a camisa\nMeu coração de torcedor\nSalve, salve Interporto\nSalve, salve o Parrião\nSão tantas vitórias\nAlegria, história\nDeste time campeão\nVamos Interporto\nVamos golear\nNão tem adversário\nQue o tigre não possa derrotar\nVamos Interporto\nVamos festejar\nEm qualquer gramado que seja\nA vitória vamos conquistar\nA vitória vamos conquistar"));
+        arrayList24.add(new Clube(R.drawable.ipiranga_de_alianca,"ipiranga_de_alianca", "Ipiranga de Aliança", R.raw.ipiranga_alianca, "Ipiranga\n" +
+                "De Aliança Esporte Clube\n" +
+                "Do estado do Tocantins\n" +
+                "Ipiranga\n" +
+                "O clube amado dos adultos e mirins\n" +
+                "Ipiranga\n" +
+                "Ó amarelo e azul\n" +
+                "São as cores do guerreiro\n" +
+                "Time altaneiro\n" +
+                "O meu leão do sul\n" +
+                "Ipiranga, Ipiranga\n" +
+                "Minha paixão\n" +
+                "Ipiranga, Ipiranga\n" +
+                "A sua história só de glória, campeão\n" +
+                "Ipiranga, Ipiranga\n" +
+                "Minha paixão\n" +
+                "Ipiranga, Ipiranga\n" +
+                "A sua história só de glória, campeão"));
+        arrayList24.add(new Clube(R.drawable.miracema,"miracema", "Miracema", R.raw.miracema, "Miracema Esporte Clube\n" +
+                "Meu tricolor\n" +
+                "O abacaxi do Tocantins\n" +
+                "Meu guerreiro vencedor\n" +
+                "Quando você entra no gramado\n" +
+                "Sacode o estádio, faz o meu coração tremer\n" +
+                "Sua torcida canta forte, canta alto\n" +
+                "Mais uma batalha\n" +
+                "Haveremos de vencer\n" +
+                "Preto, vermelho e branco\n" +
+                "Tricolor de aço, sim senhor\n" +
+                "Preto, vermelho e branco\n" +
+                "Meu clube amado\n" +
+                "Sou seu fiel torcedor\n" +
+                "Preto, vermelho e branco\n" +
+                "Tricolor de aço, sim senhor\n" +
+                "Preto, vermelho e branco\n" +
+                "Meu clube amado\n" +
+                "Sou seu fiel torcedor"));
+        arrayList24.add(new Clube(R.drawable.nova_conquista,"nova_conquista", "Nova Conquista", R.raw.nova_conquista, "Nova Conquista, de muitas glórias\n" +
+                "Somos guerreiros, rumo a vitórias\n" +
+                "Nova Conquista, de muitas glórias\n" +
+                "Somos guerreiros, rumo a vitórias\n" +
+                "Nossas vozes jubilosas\n" +
+                "Levantamos para mostrar o seu valor\n" +
+                "Tu és forte, tu és grande\n" +
+                "Nova Conquista, time de vencedor\n" +
+                "Sempre em campos lutaremos\n" +
+                "A procura das grandes vitórias\n" +
+                "Os guerreiros na batalha\n" +
+                "Nova Conquista já tem a sua história\n" +
+                "Nós a frente da bandeira\n" +
+                "No Tocantins nós somos o verdão\n" +
+                "Sempre em busca da vitória\n" +
+                "Seremos fortes, seremos campeão\n" +
+                "Nova Conquista, de muitas glórias\n" +
+                "Somos guerreiros, rumo a vitórias\n" +
+                "Nova Conquista, de muitas glórias\n" +
+                "Somos guerreiros, rumo a vitórias"));
         arrayList24.add(new Clube(R.drawable.palmas,"palmas", "Palmas", R.raw.palmas, "Somos “Palmas”, corpo e alma,\nNossa meta é a vitória.\nPalmas tu és minha paixão.\nNos gramados, seus craques cobertos de glória.\nPalmas, time do coração.\nVai tricolor Palmense,\nGrita a torcida: é campeão!\nVai tricolor, meu tricolor,\nVai conquistar essa nação\nCom amor as suas cores,\nVai vencer de Norte a Sul.\nVai tricolor, meu tricolor,\nVoa arara azul.\nFaz “ola”, agita e grita, acelera essa emoção.\nNessa vibração tricolor.\nDribla mais um, faz mais um gol.\nPorque o meu Palmas dá show\nPõe a mão na taça, mostra a tua raça\nFaça a massa delirar\nE no meu coração, eterno campeão.\nPalmas, amor e Paixão.\nE no meu coração, eterno campeão.\nPalmas, amor e paixão!"));
+        arrayList24.add(new Clube(R.drawable.rio_sono,"rio_sono", "Rio Sono", R.raw.rio_sono, "Verde e branco\n" +
+                "Verde e branco\n" +
+                "Verde e branco\n" +
+                "Rio Sono time do meu coração\n" +
+                "Suas cores representam esperança\n" +
+                "Paz e harmonia, muita história e tradição\n" +
+                "Vibro quando vou vê-lo jogar\n" +
+                "Eu choro em pranto, grito e canto sem parar\n" +
+                "É mais um gol\n" +
+                "Lá no gramado\n" +
+                "Torço port ti, morro por ti\n" +
+                "Meu clube amado\n" +
+                "Vibro quando vou vê-lo jogar\n" +
+                "Eu choro em pranto, grito e canto sem parar\n" +
+                "É mais um gol\n" +
+                "Lá no gramado\n" +
+                "Torço port ti, morro por ti\n" +
+                "Meu clube amado"));
+        arrayList24.add(new Clube(R.drawable.tocantinopolis,"tocantinopolis", "Tocantinópolis", R.raw.tocantinopolis, "Tocantinópolis queremos te promover,\n" +
+                "Esse verdão é time forte, sabe ganhar e perder.\n" +
+                "Tocantinópolis queremos te promover,\n" +
+                "Esse verdão é time forte, sabe ganhar e perder.\n" +
+                "\n" +
+                "Sabe de tudo, na hora H.\n" +
+                "O que ele sabe, pode provar.\n" +
+                "Sabe de tudo, na hora H.\n" +
+                "O que ele sabe, pode provar.\n" +
+                "\n" +
+                "Time de jovens, Leva a bandeira na mão.\n" +
+                "E a Mancha Verde contribuindo, incentivando o timão.\n" +
+                "Time de jovens, Leva a bandeira na mão.\n" +
+                "E a Mancha Verde contribuindo, incentivando o timão.\n" +
+                "\n" +
+                "Sabe de tudo, na hora H.\n" +
+                "O que ele sabe, pode provar.\n" +
+                "Sabe de tudo, na hora H.\n" +
+                "O que ele sabe, pode provar."));
+        arrayList24.add(new Clube(R.drawable.uniao_atletica_araguaiense,"uniao_atletica_araguaiense", "União Atlética Araguainense", R.raw.uniao_atletica, "União Atlética Araguainense\n" +
+                "Meu boto do lontra\n" +
+                "Estádio forte, guerreiro e valente\n" +
+                "União Atlética Araguainense\n" +
+                "Meu boto do lontra\n" +
+                "Estádio forte, guerreiro e valente\n" +
+                "Azul, preto e branco\n" +
+                "Ó meu tricolor\n" +
+                "Meu timão do canto\n" +
+                "O meu encanto\n" +
+                "Meu clube, minha paixão\n" +
+                "Azul, preto e branco\n" +
+                "Ó meu tricolor\n" +
+                "Meu timão do canto\n" +
+                "O meu encanto\n" +
+                "Meu clube, minha paixão"));
         sectionedExpandableLayoutHelper.addSection("   TOCANTINENSE", arrayList24);
 
         ArrayList<Clube> arrayList25 = new ArrayList<>();
         arrayList25.add(new Clube(R.drawable.amapa,"amapa", "Amapá", R.raw.amapa, "Nasce sobre sol do Equador\nTeu nome as quatro cantos vou levar\nAmapá é sinônimo de glória\nE nobreza em teu cantar\nEsperança nesse povo varonil\nEstado de grandeza em tom sem fim\nTantas foram as vitórias assumidas, tão sofridas\nQue até chorei por ti\nAmapá Clube de raça\nTua estrela brilhará com todo amor\nEm tu peito toda historia\nJá vivida por cada torcedor\nAmapá é alvinegro\nTenho orgulho de te ver vencendo sim\nÉs do extremo norte brasileiro\nSua virtude só vejo refletir\nAmapá Clube de raça\nTua estrela brilhará com todo amor\nEm tu peito toda historia\nNa bebida com cada torcedor\nAmapá é alvinegro\nTenho orgulho de te ver vencendo sim\nÉs do extremo norte brasileiro\nSua virtude só vejo refletir\nSua virtude só vejo refletir\nSua virtude só vejo refletir\nSua virtude só vejo refletir"));
+        arrayList25.add(new Clube(R.drawable.cristal,"cristal", "Cristal", R.raw.cristal, "Salve, salve vermelho e branco\n" +
+                "com muita garra, com muita raça\n" +
+                "esse é o Clube Atlético Cristal\n" +
+                "\n" +
+                "As cores que agigantam o meu coração\n" +
+                "São as cores desse Cristal campeão\n" +
+                "\n" +
+                "Sempre pra frente vou ver jogar\n" +
+                "o mais querido, aguerrido alvirrubro do Amapá\n" +
+                "\n" +
+                "Salve, salve vermelho e branco\n" +
+                "com muita garra, com muita raça\n" +
+                "esse é o Clube Atlético Cristal\n" +
+                "\n" +
+                "Nossa torcida ecoa num só grito\n" +
+                "corre nas veias as mesmas cores\n" +
+                "vermelho e branco são meus amores\n" +
+                "Ergue a taça alvirrubro és o clube campeão\n" +
+                "mora dentro do meu coração"));
+        arrayList25.add(new Clube(R.drawable.guarany_ap,"guarany_ap", "Guarany", R.raw.guarany_ap, "Guarany esbelto e forte\n" +
+                "Vou sempre ti amar\n" +
+                "As conquistas do esporte\n" +
+                "Fez esse time se orgulhar\n" +
+                "\n" +
+                "Que nos campos e pelas quadras\n" +
+                "Em qualquer competição\n" +
+                "Para ter sempre o teu nome\n" +
+                "Dentro do meu coração\n" +
+                "\n" +
+                "Por isso prazer Guarany\n" +
+                "Egue bem teu pavilhão\n" +
+                "Ontem e hoje para sempre\n" +
+                "Meu eterno campeão\n" +
+                "\n" +
+                "Tu é pioneiro és pela causa\n" +
+                "Tu esporte do Amapá\n" +
+                "Exaltando tua bandeira\n" +
+                "Seja em qualquer lugar\n" +
+                "\n" +
+                "Corajoso e revoluto\n" +
+                "Contemplado varonil\n" +
+                "Guarany es o pedaço do esporte do Brasil\n" +
+                "\n" +
+                "Por isso bravo Guarany\n" +
+                "Ergue bem teu pavilhão\n" +
+                "Ontem, hoje para sempre\n" +
+                "Meu eterno campeão\n" +
+                "\n" +
+                "Tua bravura meu coração conquistou\n" +
+                "Teus atletas destemidos\n" +
+                "Estão sempre a fazer fazer gol\n" +
+                "Tua bravura meu coração conquistou\n" +
+                "Teus atletas destemidos\n" +
+                "Estão sempre a fazer fazer gol\n" +
+                "\n" +
+                "Por isso bravo Guarany\n" +
+                "Ergue bem teu pavilhão\n" +
+                "Ontem e hoje para sempre\n" +
+                "Meu eterno campeão\n" +
+                "Ontem e hoje para sempre\n" +
+                "Meu eterno campeão\n" +
+                "Ontem e hoje para sempre\n" +
+                "Meu eterno campeão"));
+        arrayList25.add(new Clube(R.drawable.independente_amapa,"independente_amapa", "Independente", R.raw.independente, "São muitos anos de lutas\n" +
+                "São tantos anos de progresso\n" +
+                "O Independente sempre pra frente\n" +
+                "De sucesso em sucesso\n" +
+                "\n" +
+                "Quantas vitórias, quantos troféus\n" +
+                "O Independente já tem\n" +
+                "Por sua vida eu me orgulho\n" +
+                "De ser Independente também\n" +
+                "\n" +
+                "Por sua vida eu me orgulho\n" +
+                "De ser Independente também\n" +
+                "\n" +
+                "O Independente é fogo\n" +
+                "Gosto de ver o seu jogo\n" +
+                "Faz a torcida vibrar\n" +
+                "Independente, Independente\n" +
+                "Pra sempre eu irei te adorar\n" +
+                "Independente, Independente\n" +
+                "Pra sempre eu irei te adorar"));
         arrayList25.add(new Clube(R.drawable.macapa,"macapa", "Macapá", R.raw.macapa, "Macapá, Macapá,\nClube do meu coração\nEm ti posso lhe orgulhar\nPor seres tantas vezes campeão\nNa hora da decisão\nDá gosto de ver lutar\nCom tanta determinação\nPara a vitória conquistar\n\nHá títulos históricos na tua trajetória\nPois fostes o primeiro a se cobrir de glórias\nTua camisa azul cheia de tradição\nÉ símbolo de raça em qualquer competição\n\nHá títulos históricos na tua trajetória\nPois fostes o primeiro a se cobrir de glórias\nTua camisa azul cheia de tradição\nÉ símbolo de raça em qualquer competição"));
+        arrayList25.add(new Clube(R.drawable.oratorio,"oratorio", "Oratório", R.raw.oratorio, "Em azul e branco\n" +
+                "São cantadas as tuas glórias\n" +
+                "Oratório, todos conhecem teu valor\n" +
+                "Homenageando tua história\n" +
+                "Nossa Senhora de Fátima te abençoou\n" +
+                "Valente guerreiro, grande vencedor\n" +
+                "\n" +
+                "Clube de raça e coragem\n" +
+                "Teu sentimento é de paixão\n" +
+                "Vibra Orca Demolidora\n" +
+                "O Oratório é campeão\n" +
+                "\n" +
+                "Clube de raça e coragem\n" +
+                "Teu sentimento é de paixão\n" +
+                "Vibra Orca Demolidora\n" +
+                "O Oratório é campeão\n" +
+                "\n" +
+                "És o orgulho e a alegria do torcedor\n" +
+                "Assim o Santa Rita te abraçou\n" +
+                "Num caloroso gesto de amor\n" +
+                "\n" +
+                "O teu passado ta na memória\n" +
+                "O teu presente te faz brilhar\n" +
+                "O teu futuro é de vitória\n" +
+                "Seja em qualquer lugar\n" +
+                "\n" +
+                "O teu passado ta na memória\n" +
+                "O teu presente te faz brilhar\n" +
+                "O teu futuro é de vitória\n" +
+                "Seja em qualquer lugar"));
         arrayList25.add(new Clube(R.drawable.ypiranga_ap,"ypiranga_ap", "Ypiranga", R.raw.ypiranga_ap, "Abrace o glorioso Ypiranga\nYpiranga do meu coração\nPor ti farei o impossível\nPra no esporte serem sempre o campeão\n\nNascido em 63\nTua historia irei sempre exaltar\nClube pujante querido\nHonra e glória do desporto do Amapá\n\nJamais te esquecerei\nTrago tuas cores dentro do meu coração\nYpiranga de Amor e Garra.\nClube da torre.\nDono da minha paixão\n\nJamais te esquecerei\nTrago tuas cores dentro do meu coração\nYpiranga de Amor e Garra.\nClube da torre.\nDono da minha paixão\n\nAbsolutos e encorajados\nOs atletas estão sempre a lutar\nPara dar mais valor a nosso esporte\nE o teu nome eternamente consagrar\n\nNessa corrente negro anil\nQue canta vibra e explode de emoção\nUnindo forças pra tua vitória\nUm elo eu sou ao desfraldar teu pavilhão\n\nJamais te esquecerei\nTrago tuas cores dentro do meu coração\nYpiranga de Amor e Garra.\nClube da torre.\nDono da minha paixão\n\nJamais te esquecerei\nTrago tuas cores dentro do meu coração\nYpiranga de Amor e Garra.\nClube da torre.\nDono da minha paixão"));
         arrayList25.add(new Clube(R.drawable.sao_jose_ap,"sao_jose_ap", "São José", R.raw.sao_jose_ap, "São José é sinônimo de fibra\nSão José é uma realidade\nJoga bem de verdade\nSeu plantel tem qualidade\nSão José, São José\nSua torcida de fidelidade.\n\nSão José é sinônimo de fibra\nSão José é uma realidade\nJoga bem de verdade\nSeu plantel tem qualidade\nSão José, São José\nSua torcida de fidelidade.\n\nO Branco da camisa representa a paz,\nO Vermelho representa uma brasa,\nGosto de ver o São José jogar\nLá fora ou dentro de casa.\nGosto do São José com paixão\n\nO Tricolor do meu coração.\n"));
         sectionedExpandableLayoutHelper.addSection("   AMAPAENSE", arrayList25);
@@ -338,12 +1213,45 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         ArrayList<Clube> arrayList26 = new ArrayList<>();
         arrayList26.add(new Clube(R.drawable.genus,"genus", "Genus", R.raw.genus, "E quem são eles que surgem lá do alto?\nDo extremo norte do País.\nÉ o nosso esquadrão dourado,\nCom sua massa imensa e feliz.\nO Aluizão e nosso campo de batalha.\nNosso reduto de raça e vibração.\nE com um grito forte vem o nosso brado.\nDe um time campeão.\n\nVem, vem conhecer a nossa massa.\nVem, estremecer a arquibancada.\nVem, vestir a camisa dourada.\n\nCom o grená no coração\nE cantar pro nosso Genus\nNosso grande campeão.\n\nVem, vem conhecer a nossa massa.\nVem, estremecer a arquibancada.\nVem, vestir a camisa dourada.\n\nCom o grená no coração\nE cantar pro nosso Genus\nNosso grande campeão."));
         arrayList26.add(new Clube(R.drawable.jiparana,"jiparana", "Ji-Paraná", R.raw.jiparana, "Sob o pálio do supremo Criador,\nDo Seu amor, resplandecem nossas provas:\nA educação, a saúde e a cultura.\nÉ uma ventura ver na ULBRA as Boas Novas.\nUniversidade Luterana do Brasil!\nNo teu perfil, o estandarte do saber:\nO bem comum se confunde com a pesquisa.\nE a mão precisa avaliza o bem querer.\n\nAbre caminhos com a luz do futuro,\nO tempo seguro a vida trará.\nLeal ao lema da cristandade:\n“A verdade vos libertará”\n\nUniversidade Luterana do Brasil!\nNo teu perfil, o estandarte do saber:\nO bem comum se confunde com a pesquisa.\nE a mão precisa avaliza o bem querer.\n\nSempre fiel às ciências verdadeiras,\nFormando fieiras dos valores culturais,\nAlcança o tempo, derrubando preconceitos,\nPelo respeito à liberdade dos demais.\n\nUniversidade Luterana do Brasil!\nNo teu perfil, o estandarte do saber:\nO bem comum se confunde com a pesquisa.\nE a mão precisa avaliza o bem querer."));
+        arrayList26.add(new Clube(R.drawable.moto_clube_esportes_ro,"moto_clube_esportes_ro", "Moto Clube", R.raw.moto_clube_ro, "Meu alvi rubro\n" +
+                "Timão de raça\n" +
+                "O campeão das grandes decisões\n" +
+                "Eternamente erguendo taças\n" +
+                "Orgulho e raça desse meu torrão\n" +
+                "\n" +
+                "Bi campeão da Amazônia Ocidental\n" +
+                "Primeiro clube a jogar no Maracanã, em 1969\n" +
+                "Meu Moto Clube, eu sou tufão\n" +
+                "\n" +
+                "Meu alvi rubro\n" +
+                "Timão de raça\n" +
+                "O campeão das grandes decisões\n" +
+                "Eternamente erguendo taças\n" +
+                "Orgulho e raça desse meu torrão\n" +
+                "\n" +
+                "Doze de Maio do ano de 52\n" +
+                "Nasceu orgulho do esporte estadual\n" +
+                "Meu alvi rubro, meu Moto Clube\n" +
+                "Timão de fé, meu alto astral"));
         arrayList26.add(new Clube(R.drawable.real_ariquemes,"real", "Real Ariquemes", R.raw.real, "Aqui só tem heróis\nNo sangue o coração e desportistas\nNos leva a onde tu quiser\nReal Ariquemes de conquistas\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nCor vermelha que abraço o preto\nReal Ariquemes de amor\nÉs o clube do meu coração\nNa alegria tristeza e na dor\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nNossa história é vencer e vencer\nSou Real sou o céu da Amazônia\nSou amor ao o fruto de terra\nSou Real Ariquemes Rondônia\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória"));
         sectionedExpandableLayoutHelper.addSection("   RONDONIENSE", arrayList26);
 
         ArrayList<Clube> arrayList27 = new ArrayList<>();
         arrayList27.add(new Clube(R.drawable.atletico_rr,"atletico_rr", "Atlético - RR", R.raw.atletico_rr, "Eu sou milionário, eu sou\nEu sou tricolor\nO meu clube é um show\nEu sou milionário, eu sou\nEu sou tricolor\nO meu clube é um show\nVerde, branco e grená\nMas que maravilha eu vou me acabar\nVerde, branco e grená\nMas que maravilha eu vou me acabar\nVerde, branco e grená\nMas que maravilha eu vou me acabar\nVerde, branco e grená\nMas que maravilha eu vou me acabar\nTodos numa só jogada\nMas que parada\nO que, que há?\nTodos numa só jogada\nMas que parada\nO que, que há?\nTricolor, Tricolor, Tricolor, Tricolo"));
         arrayList27.add(new Clube(R.drawable.bare,"bare", "Baré", R.raw.bare, "Sou colorado\nSou respeitado\nEu sou, eu sou Baré\nSou colorado\nSou respeitado\nEu sou, eu sou Baré\nSou indio forte\nVou levar a minha bandeira\nVou gritar forte\nFaça chuva ou faça sol\nSou indio forte\nVou levar a minha bandeira\nVou gritar forte\nFaça chuva ou faça sol\n\nA bola rola de pé em pé\nBaré está dando olé\nA bola rola de pé em pé\nBaré está dando olé"));
+        arrayList27.add(new Clube(R.drawable.nautico_rr,"nautico_rr", "Náutico", R.raw.nautico_rr, "Quem quiser saber de bola\n" +
+                "Venha para o lado de cá\n" +
+                "A águia rubra é uma parada\n" +
+                "E á botando para quebrar\n" +
+                "Quem quiser saber de bola\n" +
+                "Venha para o lado de cá\n" +
+                "A águia rubra é uma parada\n" +
+                "E á botando para quebrar\n" +
+                "Entre nessa corrente\n" +
+                "Em um só pensamento de uma só vez\n" +
+                "Gritando todos juntos\n" +
+                "\n" +
+                "NÁUTICO, NÁUTICO, 1, 2, 3"));
         arrayList27.add(new Clube(R.drawable.sao_raimundo_rr,"sao_raimundo_rr", "São Raimundo", R.raw.sao_raimundo_rr, "Aqui só tem heróis\nNo sangue o coração e desportistas\nNos leva a onde tu quiser\nReal Ariquemes de conquistas\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nCor vermelha que abraço o preto\nReal Ariquemes de amor\nÉs o clube do meu coração\nNa alegria tristeza e na dor\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nNossa história é vencer e vencer\nSou Real sou o céu da Amazônia\nSou amor ao o fruto de terra\nSou Real Ariquemes Rondônia\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória\nAonde você chegar\nVai ser de todos a história\nSonhamos lutamos pra ser\nReal Ariquemes de glória"));
         sectionedExpandableLayoutHelper.addSection("   RORAIMENSE", arrayList27);
         sectionedExpandableLayoutHelper.notifyDataSetChanged();
