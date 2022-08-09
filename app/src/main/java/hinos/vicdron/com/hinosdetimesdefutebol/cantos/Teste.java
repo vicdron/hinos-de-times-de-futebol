@@ -251,6 +251,7 @@ public class Teste extends AppCompatActivity {
         handler = new Handler();
 
         grupoBotao.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View view) {
                 seekBar.setVisibility(View.VISIBLE);
@@ -289,12 +290,14 @@ public class Teste extends AppCompatActivity {
 
         InterstitialAd.load(this,"ca-app-pub-4782720719921842/4371354386", adRequest,
                 new InterstitialAdLoadCallback() {
+                    @RequiresApi(api = Build.VERSION_CODES.M)
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                         mInterstitialAd = interstitialAd;
                        // Log.i(TAG, "onAdLoaded");
                     }
 
+                    @RequiresApi(api = Build.VERSION_CODES.M)
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
                         // Handle the error
@@ -335,6 +338,7 @@ public class Teste extends AppCompatActivity {
         super.onDestroy();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     public void displayInterstitial() {
         if (mInterstitialAd != null) {
             mInterstitialAd.show(Teste.this);
@@ -342,6 +346,7 @@ public class Teste extends AppCompatActivity {
             Log.d("TAG", "The interstitial ad wasn't ready yet.");
         }
     }
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override // androidx.appcompat.app.AppCompatActivity
     public boolean onKeyDown(int i, KeyEvent keyEvent) {
         if (i == 4) {
