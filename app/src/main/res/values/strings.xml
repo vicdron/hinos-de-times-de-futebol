@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Hinos de Times Brasileiros</string>
+    <string name="app_name">Hinos - Futebol Brasileiro</string>
 
-    <string name="activity_label">Hinos de Times Brasileiros</string>
+    <string name="activity_label">Hinos - Futebol Brasileiro</string>
     <string name="action_settings">Settings</string>
 
     --adicionado--
