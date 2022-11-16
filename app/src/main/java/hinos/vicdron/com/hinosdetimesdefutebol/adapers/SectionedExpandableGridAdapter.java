@@ -18,8 +18,8 @@ import hinos.vicdron.com.hinosdetimesdefutebol.cantos.Teste;
 import hinos.vicdron.com.hinosdetimesdefutebol.models.Clube;
 
 public class SectionedExpandableGridAdapter extends RecyclerView.Adapter<SectionedExpandableGridAdapter.ViewHolder> {
-    private static final int VIEW_TYPE_ITEM = 2131427372;
-    private static final int VIEW_TYPE_SECTION = 2131427373;
+  //  private static final int VIEW_TYPE_ITEM = 2131427372;
+  //  private static final int VIEW_TYPE_SECTION = 2131427373;
     private final Context mContext;
     private ArrayList<Object> mDataArrayList;
     private final ItemClickListener mItemClickListener;

@@ -12,7 +12,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
-import android.provider.Settings;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
@@ -39,14 +38,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import hinos.vicdron.com.hinosdetimesdefutebol.R;
+import hinos.vicdron.com.hinosdetimesdefutebol.helper.Permissoes;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
-
 
 
 public class Teste extends AppCompatActivity {
 
     private Toolbar toolbar;
-    private TextView toolbarText, textoCantico, textoToque;
+    private TextView toolbarText, textoCantico;
     ImageView imageView;
     private MediaPlayer mp;
     private Handler handler;
@@ -58,14 +57,25 @@ public class Teste extends AppCompatActivity {
     private ImageButton btshare;
     @RequiresApi(api = Build.VERSION_CODES.M)
     private InterstitialAd mInterstitialAd;
+    private String[] permissoes = new String[]{
+            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+            Manifest.permission.READ_EXTERNAL_STORAGE,
+            Manifest.permission.WRITE_SETTINGS
+    };
 
-    @Override
+
+
+
+
+@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_teste);
 
+        Permissoes.validarPermissoes(permissoes, this, 1);
+
+
         AdRequest adRequest = new AdRequest.Builder().build();
-        //interstitialAd.setAdUnitId("ca-app-pub-4782720719921842/4371354386");
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         mAdView.loadAd(adRequest);
@@ -78,7 +88,7 @@ public class Teste extends AppCompatActivity {
         diminuirFonte = (ImageView) findViewById(R.id.diminuirFonte);
         tamanhoTexto = 15;
 
-    //------------------- TOOLBAR-------------------------------------------------------------------
+        //------------------- TOOLBAR-------------------------------------------------------------------
         toolbar = (Toolbar) findViewById(R.id.toolbar_hino);
         toolbarText = (TextView) findViewById(R.id.titulo);
         setSupportActionBar(toolbar);
@@ -88,7 +98,7 @@ public class Teste extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-    //--------------------- (RECEBENDO POR INTENT)--------------------------------------------------
+        //--------------------- (RECEBENDO POR INTENT)--------------------------------------------------
         String recebeLetra = getIntent().getExtras().getString("letra");
         textoCantico.setText(recebeLetra);
         String recebeToque = getIntent().getExtras().getString("nome_ringtone");
@@ -100,7 +110,7 @@ public class Teste extends AppCompatActivity {
         this.imageView = imageView2;
         imageView2.setImageResource(i);
 
-    //-----------------Botões para alterar tamanho da fonte.----------------------------------------
+        //-----------------Botões para alterar tamanho da fonte.----------------------------------------
         aumentarFonte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -114,7 +124,7 @@ public class Teste extends AppCompatActivity {
             }
         });
 
-    //-----------------------fUNCAO PARA COMPARTILHAR-----------------------------------------------
+        //-----------------------fUNCAO PARA COMPARTILHAR-----------------------------------------------
         btshare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -169,85 +179,84 @@ public class Teste extends AppCompatActivity {
                 return pathSDCard;
             }
         });
-        notificacao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+    notificacao.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
 
-                if(hassettingPermissions()==false && hasReadPermissions()==false && hasWritePermissions()==false) {
+            if(hassettingPermissions()==false) {
 
-                    AlertDialog.Builder builderSingle1 = new AlertDialog.Builder(Teste.this);
-                    builderSingle1.setIcon(R.mipmap.ic_launcher);
-                    builderSingle1.setTitle("Permissão");
-                    builderSingle1.setMessage("Permitir que o aplicativo defina o toque do celular");
-                    builderSingle1.setPositiveButton("Permitir", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            requestAppPermissions();
-                            requestsettingpermission();
+                AlertDialog.Builder builderSingle1 = new AlertDialog.Builder(Teste.this);
+                builderSingle1.setIcon(R.mipmap.ic_launcher);
+                builderSingle1.setTitle("Permissão");
+                builderSingle1.setMessage("Sem permissão para definir rinstone. Altere as permissões nas configuraçoes do Android");
+               // builderSingle1.setPositiveButton("Permitir", new DialogInterface.OnClickListener() {
+               //     @Override
+                //    public void onClick(DialogInterface dialogInterface, int i) {
+               //         //requestsettingpermission();
+               //     }
+              //  });
+                builderSingle1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        return;
+                    }
+                });
+                builderSingle1.show();
+
+            } else {
+                AlertDialog.Builder builderSingle = new AlertDialog.Builder(Teste.this);
+                builderSingle.setIcon(R.mipmap.ic_launcher);
+                builderSingle.setTitle("Definir como...");
+
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Teste.this, android.R.layout.select_dialog_item);
+                arrayAdapter.add("Ringtone");
+                arrayAdapter.add("Notification");
+                arrayAdapter.add("Alarm");
+                builderSingle.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+                builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
+
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        String strName = arrayAdapter.getItem(which);
+
+                        if (strName == "Ringtone") {
+
+                            String hino =  "/raw/" + recebeToque;
+                            Uri uri = Uri.parse("android.resource://" + getPackageName() + hino);
+                            RingtoneManager.setActualDefaultRingtoneUri(Teste.this, RingtoneManager.TYPE_RINGTONE, uri);
+                            Toast.makeText(Teste.this, "Hino Definido Como Toque Do Celular   ", Toast.LENGTH_LONG).show();
+
+                        } else if (strName == "Notification") {
+                            String hino =  "/raw/" + recebeToque;
+                            Uri uri = Uri.parse("android.resource://" + getPackageName() + hino);
+                            RingtoneManager.setActualDefaultRingtoneUri(Teste.this, RingtoneManager.TYPE_NOTIFICATION, uri);
+                            Toast.makeText(Teste.this, "Hino Definido Como Toque De Notificação   ", Toast.LENGTH_LONG).show();
+
+                        } else if (strName == "Alarm") {
+                            String hino =  "/raw/" + recebeToque;
+                            Uri uri = Uri.parse("android.resource://" + getPackageName() + hino);
+                            RingtoneManager.setActualDefaultRingtoneUri(Teste.this, RingtoneManager.TYPE_ALARM, uri);
+                            Toast.makeText(Teste.this, "Hino Definido Como Alarme Do Celular   ", Toast.LENGTH_LONG).show();
                         }
-                    });
-                    builderSingle1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
 
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            return;
-                        }
-                    });
-                    builderSingle1.show();
+                    }
+                });
+                builderSingle.show();
+                //
 
-                } else {
-                    AlertDialog.Builder builderSingle = new AlertDialog.Builder(Teste.this);
-                    builderSingle.setIcon(R.mipmap.ic_launcher);
-                    builderSingle.setTitle("Definir como...");
-
-                    final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Teste.this, android.R.layout.select_dialog_item);
-                    arrayAdapter.add("Ringtone");
-                    arrayAdapter.add("Notification");
-                    arrayAdapter.add("Alarm");
-                    builderSingle.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
-
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    });
-                    builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
-
-
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            String strName = arrayAdapter.getItem(which);
-
-                            if (strName == "Ringtone") {
-
-                                String hino =  "/raw/" + recebeToque;
-                                Uri uri = Uri.parse("android.resource://" + getPackageName() + hino);
-                                RingtoneManager.setActualDefaultRingtoneUri(Teste.this, RingtoneManager.TYPE_RINGTONE, uri);
-                                Toast.makeText(Teste.this, "Hino Definido Como Toque Do Celular   ", Toast.LENGTH_LONG).show();
-
-                            } else if (strName == "Notification") {
-                                String hino =  "/raw/" + recebeToque;
-                                Uri uri = Uri.parse("android.resource://" + getPackageName() + hino);
-                                RingtoneManager.setActualDefaultRingtoneUri(Teste.this, RingtoneManager.TYPE_NOTIFICATION, uri);
-                                Toast.makeText(Teste.this, "Hino Definido Como Toque De Notificação   ", Toast.LENGTH_LONG).show();
-
-                            } else if (strName == "Alarm") {
-                                String hino =  "/raw/" + recebeToque;
-                                Uri uri = Uri.parse("android.resource://" + getPackageName() + hino);
-                                RingtoneManager.setActualDefaultRingtoneUri(Teste.this, RingtoneManager.TYPE_ALARM, uri);
-                                Toast.makeText(Teste.this, "Hino Definido Como Alarme Do Celular   ", Toast.LENGTH_LONG).show();
-                            }
-
-                        }
-                    });
-                    builderSingle.show();
-                    //
-
-                }
             }
-        });
+        }
+    });
 
-    //------------------------------BOTOES PARA ESCUTAR AUDIOS-------------------------------------
+        //------------------------------BOTOES PARA ESCUTAR AUDIOS-------------------------------------
         handler = new Handler();
 
         grupoBotao.setOnClickListener(new View.OnClickListener() {
@@ -270,7 +279,7 @@ public class Teste extends AppCompatActivity {
             }
         });
 
-    //-------------------------------CONFIGURANDO SEEKBAR-------------------------------------------
+        //-------------------------------CONFIGURANDO SEEKBAR-------------------------------------------
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar sb, int progress, boolean input) {
@@ -294,14 +303,14 @@ public class Teste extends AppCompatActivity {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                         mInterstitialAd = interstitialAd;
-                       // Log.i(TAG, "onAdLoaded");
+                        // Log.i(TAG, "onAdLoaded");
                     }
 
                     @RequiresApi(api = Build.VERSION_CODES.M)
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
                         // Handle the error
-                      //  Log.i(TAG, loadAdError.getMessage());
+                        //  Log.i(TAG, loadAdError.getMessage());
                         mInterstitialAd = null;
                     }
                 });
@@ -355,44 +364,8 @@ public class Teste extends AppCompatActivity {
         return super.onKeyDown(i, keyEvent);
     }
 
-    // VERIFICAção de Permissoes -------------------------------------------------------------------
-    private void requestAppPermissions() {
-        if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            return;
-        }
-
-        if (hasReadPermissions() && hasWritePermissions()) {
-            return;
-        }
-
-        ActivityCompat.requestPermissions(this,
-                new String[] {
-                        Manifest.permission.READ_EXTERNAL_STORAGE,
-                        Manifest.permission.WRITE_EXTERNAL_STORAGE
-                } , MODE_ENABLE_WRITE_AHEAD_LOGGING); // your request code
-    }
-    private boolean hasReadPermissions() {
-        return (ContextCompat.checkSelfPermission(getBaseContext(), Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED);
-    }
-    private boolean hasWritePermissions() {
-        return (ContextCompat.checkSelfPermission(getBaseContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED);
-    }
-    private void requestsettingpermission() {
-        if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            return;
-        }
-        if (hassettingPermissions()) {
-            return;
-        }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (!Settings.System.canWrite(getApplicationContext())) {
-                Intent intent = new Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS, Uri.parse("package:" + getPackageName()));
-                startActivityForResult(intent, 200);
-            }
-        }
-    }
     private boolean hassettingPermissions() {
-        return (ContextCompat.checkSelfPermission(getBaseContext(), Manifest.permission.WRITE_APN_SETTINGS) == PackageManager.PERMISSION_GRANTED);
+        return (ContextCompat.checkSelfPermission(getBaseContext(), Manifest.permission.WRITE_SETTINGS) == PackageManager.PERMISSION_GRANTED);
     }
 
 }

@@ -1256,15 +1256,14 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         sectionedExpandableLayoutHelper.addSection("   RORAIMENSE", arrayList27);
         sectionedExpandableLayoutHelper.notifyDataSetChanged();
     }
-    @Override // hinos.vicdron.com.hinosdetimesdefutebol.adapers.ItemClickListener
+    @Override
     public void itemClicked(Clube clube) {
         Toast.makeText(this, "Clube: " + clube.getName() + clube.getCover() + "clicked", Toast.LENGTH_LONG).show();
     }
-    @Override // hinos.vicdron.com.hinosdetimesdefutebol.adapers.ItemClickListener
+    @Override
     public void itemClicked(Section section) {
         Toast.makeText(this, "Section: " + section.getName() + " clicked", Toast.LENGTH_LONG).show();
 
-      //  private static final int LONG_DELAY = 3500; // 3.5 seconds
-       // private static final int SHORT_DELAY = 2000; // 2 seconds
+
     }
 }
