@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 import hinos.vicdron.com.hinosdetimesdefutebol.models.Clube;
 
 public class SectionedExpandableLayoutHelper implements SectionStateChangeListener {
@@ -38,19 +37,6 @@ public class SectionedExpandableLayoutHelper implements SectionStateChangeListen
         this.mSectionDataMap.put(section, arrayList);
     }
 
-    public void addItem(String str, Clube clube) {
-        this.mSectionDataMap.get(this.mSectionMap.get(str)).add(clube);
-    }
-
-    public void removeItem(String str, Clube clube) {
-        this.mSectionDataMap.get(this.mSectionMap.get(str)).remove(clube);
-    }
-
-    public void removeSection(String str) {
-        this.mSectionDataMap.remove(this.mSectionMap.get(str));
-        this.mSectionMap.remove(str);
-    }
-
     private void generateDataList() {
         this.mDataArrayList.clear();
         for (Map.Entry<Section, ArrayList<Clube>> entry : this.mSectionDataMap.entrySet()) {
@@ -63,7 +49,7 @@ public class SectionedExpandableLayoutHelper implements SectionStateChangeListen
         }
     }
 
-    @Override // hinos.vicdron.com.hinosdetimesdefutebol.adapers.SectionStateChangeListener
+    @Override
     public void onSectionStateChanged(Section section, boolean z) {
         if (!this.mRecyclerView.isComputingLayout()) {
             section.isExpanded = z;

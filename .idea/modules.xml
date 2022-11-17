@@ -4,9 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Hinos_de_Times_De_Futebol.iml" filepath="$PROJECT_DIR$/.idea/modules/Hinos_de_Times_De_Futebol.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hinos_de_Times_De_Futebol.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.Hinos_de_Times_De_Futebol.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.Hinos_de_Times_De_Futebol.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.Hinos_de_Times_De_Futebol.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.Hinos_de_Times_De_Futebol.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.Hinos_de_Times_De_Futebol.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.Hinos_de_Times_De_Futebol.app.unitTest.iml" />

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         super.onCreate(bundle);
         setContentView(R.layout.activity_main);
         ((AdView) findViewById(R.id.adView)).loadAd(new AdRequest.Builder().build());
-        this.mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        this.mRecyclerView = findViewById(R.id.recycler_view);
 
         SectionedExpandableLayoutHelper sectionedExpandableLayoutHelper = new SectionedExpandableLayoutHelper(this, this.mRecyclerView, this, 4);
         ArrayList<Clube> arrayList = new ArrayList<>();
