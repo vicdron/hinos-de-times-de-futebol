@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import hinos.vicdron.com.hinosdetimesdefutebol.R;
-import hinos.vicdron.com.hinosdetimesdefutebol.cantos.Teste;
+import hinos.vicdron.com.hinosdetimesdefutebol.cantos.Player;
 import hinos.vicdron.com.hinosdetimesdefutebol.models.Clube;
 
 public class SectionedExpandableGridAdapter extends RecyclerView.Adapter<SectionedExpandableGridAdapter.ViewHolder> {
@@ -59,10 +59,10 @@ public class SectionedExpandableGridAdapter extends RecyclerView.Adapter<Section
                 viewHolder.view.setOnClickListener(new View.OnClickListener() {
 
                     public void onClick(View view) {
-                        Intent intent = new Intent(SectionedExpandableGridAdapter.this.mContext, Teste.class);
+                        Intent intent = new Intent(SectionedExpandableGridAdapter.this.mContext, Player.class);
                         Bundle bundle = new Bundle();
                         bundle.putString("letra", clube.getLetraCantico());
-                        bundle.putString("nome_ringtone", clube.getRingtone());
+                        bundle.putString("ringtone", clube.getRingtone());
                         bundle.putString("titulo", clube.getName());
                         bundle.putInt("cover", clube.getCover());
                         bundle.putInt("completo", clube.getEnviaHino());

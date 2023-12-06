@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Hinos - Futebol Brasileiro</string>
+    <string name="fileprovider">hinos.vicdron.com.hinosdetimesdefutebol.fileprovider</string>
+    <string name="banner">ca-app-pub-4782720719921842/6837935357</string>
+
+
 
     <string name="activity_label">Hinos - Futebol Brasileiro</string>
     <string name="action_settings">Settings</string>
