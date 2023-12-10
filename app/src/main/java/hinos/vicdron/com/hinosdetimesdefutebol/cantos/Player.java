@@ -302,8 +302,8 @@ public class Player extends AppCompatActivity {
 
     private void showRingtoneAlarmOptions() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Escolher opção")
-                .setItems(new CharSequence[]{"Ringtone", "Alarme", "Fechar"}, new DialogInterface.OnClickListener() {
+        builder.setTitle("Definir como ringtone do celular?")
+                .setItems(new CharSequence[]{"Sim", "Fechar"}, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which) {
@@ -340,8 +340,8 @@ public class Player extends AppCompatActivity {
         Context appContext = getApplicationContext();
 
         // Define o completo de destino do arquivo de ringtone
-        File ringtoneFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_RINGTONES), "temp_ringtone.mp3");
-
+       // File ringtoneFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_RINGTONES), "temp_ringtone.mp3");
+        File ringtoneFile = new File(getExternalFilesDir(Environment.DIRECTORY_RINGTONES), "temp_ringtone.mp3");
         try {
 
             // Copia os dados do recurso para o arquivo de toque
@@ -367,7 +367,7 @@ public class Player extends AppCompatActivity {
             values.put(MediaStore.MediaColumns.DATA, ringtoneFile.getAbsolutePath());
             //  values.put(MediaStore.MediaColumns.TITLE, "TempRingtone");
             values.put(MediaStore.MediaColumns.TITLE, audioFileName);
-            values.put(MediaStore.MediaColumns.MIME_TYPE, "audio/mp3");
+            values.put(MediaStore.MediaColumns.MIME_TYPE, "audio/mpeg");
             values.put(MediaStore.Audio.Media.IS_RINGTONE, true);
             values.put(MediaStore.Audio.Media.IS_NOTIFICATION, false);
             values.put(MediaStore.Audio.Media.IS_ALARM, false);
@@ -389,39 +389,6 @@ public class Player extends AppCompatActivity {
         }
     }
 
- /*   private void setAudioAsAlarm(String audioFileName, int audioResourcePath)  {
-
-        // Verifique se o ID do recurso é válido
-        if (audioResourcePath == 0) {
-            Toast.makeText(getApplicationContext(), "ID do recurso inválido", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        // Crie um URI para o recurso de áudio
-        Uri audioUri = Uri.parse("android.resource://" + getPackageName() + "/" + audioResourcePath);
-
-        // Configuração do ContentValues
-        ContentValues values = new ContentValues();
-        values.put(MediaStore.MediaColumns.DATA, audioUri.getPath());
-        values.put(MediaStore.MediaColumns.TITLE, audioFileName);
-        values.put(MediaStore.MediaColumns.MIME_TYPE, "audio/mp3");
-        values.put(MediaStore.Audio.Media.IS_ALARM, (Boolean) true);
-
-        // Salva o áudio no banco de dados de mídia
-        Uri uri = MediaStore.Audio.Media.getContentUriForPath(audioUri.getPath());
-        getContentResolver().insert(uri, values);
-
-        try {
-            // Configure o AlarmManager para disparar o alarme
-            AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-            long triggerAtMillis = SystemClock.elapsedRealtime() + 100000; // 10 segundos de agora (altere conforme necessário)
-
-            Toast.makeText(getApplicationContext(), "Alarme configurado com sucesso", Toast.LENGTH_SHORT).show();
-        } catch (Throwable unused4) {
-            Toast.makeText(getApplicationContext(), "Erro", Toast.LENGTH_SHORT).show();
-        }
-
-    } */
 
     //metodos de permissao-------------------------------------------------------------------------
     private void checkAndRequestWriteSettingsPermission() {
