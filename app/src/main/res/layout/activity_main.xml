@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4782720719921842/6837935357"/>
+        ads:adUnitId="@string/banner"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"

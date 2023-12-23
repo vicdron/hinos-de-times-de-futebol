@@ -42,6 +42,8 @@ import java.io.OutputStream;
 import hinos.vicdron.com.hinosdetimesdefutebol.R;
 
 public class Player extends AppCompatActivity {
+
+    private ImageView botaopro;
     public String interstitial = "ca-app-pub-4782720719921842/4371354386";
     public ImageView imageView;
     private ImageView btshare;
@@ -70,6 +72,8 @@ public class Player extends AppCompatActivity {
         ((AdView) findViewById(R.id.adView)).loadAd(new AdRequest.Builder().build());
 
         //initializeViews--------------------------------------------------------------------------
+
+        botaopro= (ImageView) findViewById(R.id.botao_pro);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         btshare = findViewById(R.id.btshare);
@@ -186,6 +190,14 @@ public class Player extends AppCompatActivity {
                     e.printStackTrace();
                     Toast.makeText(getApplicationContext(), "Erro ao criar arquivo temporário", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        // botao botaopro -------- --------------------------------------------------------------
+        botaopro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=anthems.vicdron.hinos.anthems")));
             }
         });
 

@@ -31,33 +31,77 @@
                 android:layout_height="wrap_content"
                 android:layout_span="5"/>
         </TableRow>
-        <TableRow
-            android:layout_width="49dp"
-            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
 
-
+            <!-- Imagem 1 -->
             <ImageView
                 android:id="@+id/botao_play"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/play" />
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:src="@drawable/play_pause"
+                android:adjustViewBounds="true"/>
+
+            <!-- Borda -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/> <!-- Cor da borda (pode ajustar a cor conforme necessário) -->
+
+
+            <!-- Imagem 3 -->
             <ImageView
                 android:id="@+id/notificacao"
-                android:layout_width="50dp"
-                android:layout_height="55dp"
-                android:layout_gravity="right"
-                android:layout_marginRight="5dp"
-                app:srcCompat="@drawable/ringtone" />
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ringtone12"
+                android:adjustViewBounds="true"/>
 
+            <!-- Borda -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/> <!-- Cor da borda (pode ajustar a cor conforme necessário) -->
+
+
+            <!-- Imagem 2 -->
             <ImageView
                 android:id="@+id/btshare"
-                android:layout_width="50dp"
-                android:layout_height="55dp"
-                android:layout_gravity="right"
-                android:layout_marginRight="1dp"
-                android:background="@android:color/transparent"
-                app:srcCompat="@drawable/share" />
-        </TableRow>
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/share29"
+                android:adjustViewBounds="true"/>
+
+            <!-- Borda -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/> <!-- Cor da borda (pode ajustar a cor conforme necessário) -->
+
+
+            <!-- Imagem 4 -->
+            <ImageView
+                android:id="@+id/botao_pro"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/hino1"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <!-- Borda -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/> <!-- Cor da borda (pode ajustar a cor conforme necessário) -->
+
+
+        </LinearLayout>
     </TableLayout>
     <ScrollView
         android:id="@+id/scrollView3"
@@ -72,6 +116,6 @@
             android:textColor="@android:color/black"
             android:id="@+id/letra"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
